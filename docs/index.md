@@ -1,9 +1,10 @@
 # Hello World! 🙃
 
-!!! info "Informationskanäle"
-	Alle aktuellen Informationen findet ihr hier. Wichtige Neuigkeiten werden auch im [Newsletter](https://chemnitzer.linux-tage.de/2021/de/presse/newsletter) oder bei [Twitter](https://chemnitzer.linux-tage.de/twitter) geteilt.
-
-	Weiterhin können wir uns gern während der Linux-Tage im Matrix-Chat unterhalten. Hierfür benötigt ihr einen Matrixaccount: [Zum Godot@CLT Raum](https://matrix.to/#/#godot-clt2021:tu-chemnitz.de)
+!!! info "Ein freundliches Hallo"
+	Herzlich willkommen!
+	
+	Diese Seite dient der Begleitung von Workshops zum Thema Godot. Du kannst sie aber auch ohne Workshop durcharbeiten.
+	Ich wünsche dir jedenfalls viel Spaß bei der Lektüre. Hier und da fehlt sicherlich noch etwas, aber lass dich davon nicht aufhalten. Bei Fragen erstell einfach bei GitHub einen [Diskussionsbeitrag](https://github.com/pwab/godot-clt2021/discussions)!
 	
 	*Grüße<br>
 	\- Philipp*
