@@ -1,7 +1,18 @@
-# godot-clt2021
-Workshop @ CLT2021
+# [Godot](https://godotengine.org/) Workshop @ [Chemnitzer Linux-Tage](https://chemnitzer.linux-tage.de)
 
-https://pwab.github.io/godot-clt2021/
+## Current Build
+
+https://pwab.github.io/godot-clt-workshop/
+
+## Translations
 
 GERMAN VERSION ONLY
 (As long as mkdocs has its language selector in the Insiders program...)
+
+## History
+
+- TBD
+
+## License
+
+- TBD
