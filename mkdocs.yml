@@ -42,27 +42,34 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-#extra_css:
-#  - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 
 repo_url: https://github.com/pwab/godot-clt-workshop
+repo_name: pwab/godot-clt-workshop
 
 nav:
   - Startseite: index.md
-  - Inhalt: contents.md
-  - Installation: installation.md
-  - Grundlagen:
-    - Willkommen: basics/index.md
-    - Aussprache: basics/pronounce.md
-    - Ein Spiel starten: basics/start.md
-    - Der Editor: basics/editor.md
-    - Modden von Beispielen: basics/mods.md
-    - Hello World: basics/hello.md
-    - Ein Spiel entwickeln: basics/gamedev.md
-    - Godot in der Übersicht: basics/godot.md
-  - Dodge the Creeps!:
-    - Spielidee: dodge-the-creeps/index.md
+  - Einleitung:
+    - Willkommen: introduction/welcome.md
+    - Aussprache: introduction/pronounce.md
+    - Godot in der Übersicht: introduction/godot.md
+  - Level 1:
+    - Installation: level1/installation.md
+    - Eine Demo starten: level1/start.md
+    - Hello World: level1/hello.md
+  - Level 2:
+    - Spielfigur mit Bild: level2/player.md
+    - Eingaben zur Bewegung: level2/input.md
+    - Kollisionen: level2/collision.md
+  - Level 3:
+    - Eine Spielidee entwickeln: level3/gamedev.md
+    - Den Editor kennenlernen: level3/editor.md
+    - Modden von Beispielen: level3/mods.md
+  - Level 4:
+    - Dodge the creeps!: dodge-the-creeps/index.md
     - Let's Play: dodge-the-creeps/play.md
+  - Wie geht es weiter?: next.md
   - Themengebiete:
     - Übersicht: topics/index.md
     - Export: topics/export.md

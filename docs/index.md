@@ -1,4 +1,6 @@
-# Hello World! 🙃
+# Spieleprogrammierung mit der Godot Eninge - Ein Workshop bei den Chemnitzer Linux Tagens
+
+## Intro
 
 !!! info "Ein freundliches Hallo"
 	Herzlich willkommen!
@@ -11,15 +13,7 @@
 	
 	![pwab bei CLT-Adventure](assets/pwab_cltadventure.png)
 
-## Intro
-
-![Banner - Godot auf der CLT2021](assets/banner.png)
-
 Godot ist eine freie Spiel-Engine mit der sich auf einfache Weise Ideen für Spiele und Apps auf PC, Smartphone oder im Webbrowser umsetzen lassen. Der Einstieg ist kinderleicht und viele Sachen sind überraschend schnell gemacht. Im Workshop wird ein kleines 2D-Spiel für PC und Smartphone entwickelt, welches im Anschluss beliebig angepasst und verändert werden kann. Unter Anleitung wird jedes Element Schritt für Schritt eingebaut und Fallstricke dabei erklärt. Am Ende des Workshops sollst du gesehen haben, wie die Godot Engine aufgebaut ist und wie man damit die einzelnen Grundbausteine eines Spiels nach und nach zusammenfügt. Mithilfe der umfangreichen Dokumentation können dann selbstständig weitere Themen erarbeitet werden.
-
-## Inhalt
-
-[-> Hier geht es zur Inhaltsübersicht.](contents.md)
 
 ## Voraussetzungen
 
@@ -40,7 +34,7 @@ Ihr braucht für den Workshop:
 - [x] einen Computer mit Maus/Mauspad und Tastatur
 - [x] ein Headset mit Kopfhörern und am besten mit Mikrofon
 - [x] einen 'aufgeräumten' Desktop, der nur Dinge zeigt, die öffentlich sichtbar sein dürfen, da wir eventuell den Bildschirm teilen, um einander zu helfen
-- [ ] [die Godot Engine auf eurem PC](installation.md)
+- [ ] [die Godot Engine auf eurem PC](level1/installation.md)
 
 ## Weiterführende Links
 
@@ -49,8 +43,8 @@ Ihr braucht für den Workshop:
 
 ## Lizenz
 
-Der gesamte Workshop steht unter der [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/de/) Lizenz.
+![CC0 Lizenz Badge](assets/cc0_badge.png)
 
-Die Screenshots wurden teilweise aus der offiziellen Dokumententation übernommen. Sie stehen - genauso wie das Godot Engine Logo - ebenfalls unter der [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) Lizenz und wurden erstellt von _Juan Linietsky, Ariel Manzur and the Godot community_.
+Der gesamte Workshopinhalt (Text, Bilder und Code) steht unter der [CC0-1.0](https://creativecommons.org/share-your-work/public-domain/cc0/) Lizenz. Er ist also frei nutzbar, kann ohne zu fragen kopiert, verändert und weitergegeben werden.
 
-Alle Codeteile sind - falls nicht anders angegeben - [MIT](https://pwab.mit-license.org/) lizenziert und frei nutzbar.
+Eine Ausnahme bilden Screenshots, welche teilweise aus der offiziellen Dokumentation übernommen wurden (extra gekennzeichnet). Sie stehen - genauso wie das Godot Engine Logo - unter der [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) Lizenz und wurden erstellt von _Juan Linietsky, Ariel Manzur and the Godot community_.
