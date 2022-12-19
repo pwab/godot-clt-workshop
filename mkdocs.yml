@@ -5,6 +5,8 @@ theme:
   logo: assets/logo.svg
   favicon: assets/favicon.png
   language: de
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -13,7 +15,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -21,9 +22,17 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  
-  #features:
-    #- navigation.indexes  <-- Insiders only
+  features:
+    #- navigation.indexes --> section pages (overviews)
+    - navigation.instant # xhr hot reload
+    - navigation.tracking # anchor tracking in url
+    - navigation.top # back to top button
+    - toc.follow # toc scrolls so the current point is visible
+    #- toc.integrate --> toc of a page on the left
+    - search.suggest
+
+plugins:
+  - search
 
 markdown_extensions:
   - admonition
@@ -35,6 +44,8 @@ markdown_extensions:
 
 #extra_css:
 #  - stylesheets/extra.css
+
+repo_url: https://github.com/pwab/godot-clt-workshop
 
 nav:
   - Startseite: index.md
