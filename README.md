@@ -6,8 +6,11 @@ https://pwab.github.io/godot-clt-workshop/
 
 ## Translations
 
-GERMAN VERSION ONLY
-(As long as mkdocs has its language selector in the Insiders program...)
+GERMAN VERSION ONLY for now
+
+## Documentation
+
+- https://squidfunk.github.io/mkdocs-material/getting-started/
 
 ## History
 
@@ -15,4 +18,4 @@ GERMAN VERSION ONLY
 
 ## License
 
-- TBD
+![CC0 license badge](docs/assets/cc0_badge.png)
