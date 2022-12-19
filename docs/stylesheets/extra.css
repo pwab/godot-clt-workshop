@@ -1,38 +1,26 @@
-.md-typeset .admonition.quote {
+.md-typeset .admonition {
 	font-size: .75rem;
 }
 
-.md-typeset .admonition.danger {
-	font-size: .75rem;
-}
-
-.md-typeset .admonition.info {
-	font-size: .75rem;
-}
-
-.md-typeset .admonition.question {
-	font-size: .75rem;
-}
-
-.md-typeset .admonition.warning {
-	font-size: .75rem;
-}
-
+/*
 .md-typeset p {
     text-align: justify;
 }
+*/
 
-.md-typeset a, .md-typeset a::before {
-  font-weight: bold;
-}
-
+/*
 :root {
   --md-primary-fg-color:          #260056;
   --md-primary-fg-color--light:   #5b005e;
   --md-primary-fg-color--dark:    #9539e1;
   --md-accent-fg-color:           #0cabc6;
 }
+*/
 
 a {
   font-style: bold;
+}
+
+.md-typeset a, .md-typeset a::before {
+  font-weight: bold;
 }
