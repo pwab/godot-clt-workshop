@@ -1,44 +1,47 @@
-# Spieleprogrammierung mit der Godot Eninge - Ein Workshop bei den Chemnitzer Linux Tagens
+# Spieleprogrammierung mit der Godot Engine - Ein Workshop bei den Chemnitzer Linux-Tagen
 
 ## Intro
 
 !!! info "Ein freundliches Hallo"
 	Herzlich willkommen!
 	
-	Diese Seite dient der Begleitung von Workshops zum Thema Godot. Du kannst sie aber auch ohne Workshop durcharbeiten.
-	Ich wünsche dir jedenfalls viel Spaß bei der Lektüre. Hier und da fehlt sicherlich noch etwas, aber lass dich davon nicht aufhalten. Bei Fragen erstell einfach bei GitHub einen [Diskussionsbeitrag](https://github.com/pwab/godot-clt2021/discussions)!
+	Diese Seite dient der Begleitung von Workshops zum Thema Godot. Du kannst sie aber auch durcharbeiten, ohne einen Workshop zu besuchen.
+	Ich wünsche dir jedenfalls viel Spaß bei der Lektüre. Hier und da fehlt sicherlich noch etwas, aber lass dich davon nicht aufhalten. Bei Fragen kannst du einfach bei GitHub einen [Diskussionsbeitrag](https://github.com/pwab/godot-clt-workshop/discussions) erstellen!
 	
-	*Grüße<br>
+	*Viele Grüße<br>
 	\- Philipp*
 	
 	![pwab bei CLT-Adventure](assets/pwab_cltadventure.png)
 
-Godot ist eine freie Spiel-Engine mit der sich auf einfache Weise Ideen für Spiele und Apps auf PC, Smartphone oder im Webbrowser umsetzen lassen. Der Einstieg ist kinderleicht und viele Sachen sind überraschend schnell gemacht. Im Workshop wird ein kleines 2D-Spiel für PC und Smartphone entwickelt, welches im Anschluss beliebig angepasst und verändert werden kann. Unter Anleitung wird jedes Element Schritt für Schritt eingebaut und Fallstricke dabei erklärt. Am Ende des Workshops sollst du gesehen haben, wie die Godot Engine aufgebaut ist und wie man damit die einzelnen Grundbausteine eines Spiels nach und nach zusammenfügt. Mithilfe der umfangreichen Dokumentation können dann selbstständig weitere Themen erarbeitet werden.
+Godot ist eine freie Spiel-Engine, mit der sich auf einfache Weise Ideen für Spiele und Apps auf PC, Smartphone oder im Webbrowser umsetzen lassen. Der Einstieg ist überraschend einfach und viele Sachen sind schnell gemacht. Im Workshop wird die Godot Engine vorgestellt. Unter Anleitung werden Spielelemente wie Animationen, Sound und Kollisionen für ein kleines 2D-Spiel Schritt für Schritt eingebaut und Fallstricke dabei erklärt. Am Ende des Workshops sollen die Teilnehmer gesehen haben, wie die Godot Engine aufgebaut ist und wie man damit die einzelnen Grundbausteine eines Spiels nach und nach zusammenfügt. Da man in einem solchen Kurs trotz des zeitlichen Umfangs nur an der Oberfläche der Spieleentwicklung kratzen kann, gibt es online weiterführendes Kursmaterial, mit dessen Hilfe man sich dann selbstständig weitere Themen erarbeitet kann.
 
 ## Voraussetzungen
 
-Der Workshop ist konzipiert für Jugendliche ab der 8. Klasse. Programmierkenntnisse sind nicht notwendig, da im Laufe des Workshops alle Codeteile gezeigt und erläutert werden. Der Kurs wird auf Deutsch gehalten, der Code wird allerdings auf Englisch geschrieben, da dies im Programmierbereich üblich ist. Dafür sind jedoch nur grundlegende Sprachkenntnisse notwendig und alle Programmteile werden beim Einfügen auf Deutsch erklärt.
+Der Workshop ist konzipiert für Jugendliche etwa ab der 8. Klasse. Programmierkenntnisse sind nicht notwendig, da im Laufe des Workshops alle Codeteile gezeigt und erläutert werden. Der Kurs wird auf Deutsch gehalten, der Code wird allerdings auf Englisch geschrieben, da dies im Programmierbereich üblich ist. Dafür sind jedoch nur grundlegende Sprachkenntnisse notwendig und alle Programmteile werden beim Einfügen auf Deutsch erklärt.
 
 Eine Teilnahme ist auch für andere Personengruppen (bspw. jüngere Kinder unter Begleitung eines Erwachsenen oder ältere/erfahrenere Jugendliche) möglich. Allerdings kann hier nicht auf die speziellen Bedürfnisse (bspw. Über- oder Unterforderung) eingegangen werden - ich werde dennoch mein Bestes versuchen.
 
-Die Software ist für alle gängigen Betriebssysteme verfügbar und dank einer Größe von knapp 70 MB schnell heruntergeladen. Eine Installation wird in der Regel nicht benötigt. Für die Teilnahme am Workshop wird ein PC mit Maus und Tastatur empfohlen, welcher OpenGL 2.1 / OpenGL ES 2.0 kompatible Hardware besitzt - das unterstützen heutzutage aber nahezu alle Rechner also keine Sorge. Zur Not gibt es auch einen [Webeditor](https://editor.godotengine.org/releases/latest/), welcher auf Tablets funktionieren könnte.
+Die benötigte Software ist für alle gängigen Betriebssysteme verfügbar und dank einer Größe von knapp 40 MB schnell heruntergeladen. Eine Installation wird in der Regel nicht benötigt. Für die Teilnahme am Workshop wird ein PC mit Maus und Tastatur empfohlen, welcher OpenGL 2.1 / OpenGL ES 2.0 kompatible Hardware besitzt - das unterstützen heutzutage aber nahezu alle Rechner also keine Sorge. Zur Not gibt es auch einen [Webeditor](https://editor.godotengine.org/releases/latest/), welcher auf Tablets funktionieren könnte.
 
-Zur Kommunikation wird es während des Workshops einen Textchat geben. Wer ein Mikrofon hat, kann auch dieses für das Stellen von Fragen nutzen. Eine Kamera wird nicht benötigt.
+## Letzte Worte zur Vorbereitung
 
-Sollte etwas schieflaufen: Keine Panik! Ich werde noch Texte/Videos erstellen, damit du die Sachen aus dem Workshop nochmal anschauen oder nachlesen kannst.
+Also hier noch einmal zusammengefasst, was du zum Live-Workshop vor Ort benötigst:
 
-## Vorbereitung
+- [x] einen Laptop
+- [ ] [die Godot Engine](level1/installation.md)
 
-Ihr braucht für den Workshop:
+Und falls der Workshop online stattfindet:
 
-- [x] einen Computer mit Maus/Mauspad und Tastatur
-- [x] ein Headset mit Kopfhörern und am besten mit Mikrofon
+- [x] einen PC/Laptop
+- [x] ein Headset mit Kopfhörern und am besten mit Mikrofon (Zur Kommunikation wird es während des Workshops einen Textchat geben. Wer ein Mikrofon hat, kann auch dieses für das Stellen von Fragen nutzen. Eine Kamera wird nicht benötigt.)
 - [x] einen 'aufgeräumten' Desktop, der nur Dinge zeigt, die öffentlich sichtbar sein dürfen, da wir eventuell den Bildschirm teilen, um einander zu helfen
-- [ ] [die Godot Engine auf eurem PC](level1/installation.md)
+- [ ] [die Godot Engine](level1/installation.md)
+
+Sollte etwas schieflaufen oder solltest du aus irgendwelchen Gründen nicht am Workshop teilnehmen können: Keine Panik! Auf dieser Webseite findest du alle Inhalte und Schritt-für-Schritt-Anleitungen zu den Themen des Workshops.
 
 ## Weiterführende Links
 
-- [Webseite der Chemnitzer Linux-Tage 2021](https://chemnitzer.linux-tage.de/2021/de)
+- [Webseite der Chemnitzer Linux-Tage](https://chemnitzer.linux-tage.de/)
 - [Offizielle Webseite der Godot Engine (Englisch)](https://godotengine.org/)
 
 ## Lizenz

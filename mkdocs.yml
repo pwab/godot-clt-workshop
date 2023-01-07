@@ -53,7 +53,7 @@ nav:
   - Einleitung:
     - Willkommen: introduction/welcome.md
     - Aussprache: introduction/pronounce.md
-    - Godot in der Übersicht: introduction/godot.md
+    - Fragen zu Godot: introduction/godot.md
   - Level 1:
     - Installation: level1/installation.md
     - Eine Demo starten: level1/start.md
