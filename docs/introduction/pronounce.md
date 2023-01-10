@@ -1,6 +1,8 @@
 # Aussprache
 
-> Ähm wie spricht man "Godot" eigentlich aus?
+!!! quote "Zitat von einfach jedem"
+
+    _Ähm wie spricht man "Godot" eigentlich aus?_
 
 Diese Frage habe ich schon sehr oft gehört oder gelesen. Insbesondere unter YouTubevideos findet man öfter heiße Diskussionen darüber. Die Antwort ist einfacher als man denkt: Es ist deine Sache, wie du "Godot" aussprichst! Es ist eine freie und offene Spieleengine und du kannst entscheiden, was du damit machst. Somit kannst du auch entscheiden, wie du es aussprechen willst. Das hat Juan Linietsky - auch _reduz_ genannt - einmal in einem Interview klargestellt. Und er ist neben Ariel Manzur der Begründer und Hauptentwickler von Godot.
 

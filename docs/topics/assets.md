@@ -1,7 +1,7 @@
 # Asset Library
 
-!!! warning "Baustelle"
-    Sorry, hier steht noch nichts weiter. Ich arbeite daran ⛏
+!!! abstract "Zusammenfassung"
+    **Ziel**: xxx<br>
+    **Level**: Anfänger bis Fortgeschritten<br>
+    **Doku**: [Godot Asset Library](https://godotengine.org/asset-library/asset), [Godot Dokumentation - Tutorials - Plugins](https://docs.godotengine.org/de/stable/tutorials/plugins/index.html)
 
-- https://godotengine.org/asset-library/asset
-- https://docs.godotengine.org/de/stable/tutorials/plugins/index.html

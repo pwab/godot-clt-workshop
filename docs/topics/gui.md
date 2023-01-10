@@ -1,6 +1,7 @@
-# GUI
+# Grafische Benutzeroberflächen (GUI)
 
-!!! warning "Baustelle"
-    Sorry, hier steht noch nichts weiter. Ich arbeite daran ⛏
+!!! abstract "Zusammenfassung"
+    **Ziel**: xxx<br>
+    **Level**: Anfänger bis Fortgeschritten<br>
+    **Doku**: [Godot Dokumentation - Tutorials - GUI](https://docs.godotengine.org/de/stable/tutorials/gui/index.html)
 
-- https://docs.godotengine.org/de/stable/tutorials/gui/index.html

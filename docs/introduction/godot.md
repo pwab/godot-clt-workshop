@@ -1,6 +1,6 @@
 # Fragen zu Godot
 
-Es geht noch nicht mal richtig los und schon gibt es Fragen über Fragen. Das ist ein typisches Bild in jedem Workshop und alle diese "Bevor-wir-loslegen-möchte-ich-gern-noch-etwas-wissen"-Fragen haben ihre Berechtigung. Deshalb möchte an dieser Stelle einen Überblick zur Godot-Engine und zu den häufigsten Startfragen ein paar erste Antworten geben.
+Es geht noch nicht mal richtig los und schon gibt es Fragen über Fragen. Das ist ein typisches Bild in jedem Workshop und alle diese "Bevor-wir-loslegen-möchte-ich-gern-noch-etwas-wissen"-Fragen haben ihre Berechtigung. Deshalb möchte ich an dieser Stelle einen Überblick zur Godot-Engine und zu den häufigsten Startfragen ein paar erste Antworten geben.
 
 Wie immer gilt: Nichts ist in Stein gemeißelt. Videos von YouTubern sind manchmal schon etwas älter und einige Antworten stimmen einfach nicht mehr. Die Godot Engine entwickelt sich stetig und sehr schnell weiter - da komme auch ich an der einen oder anderen Stelle nicht mehr hinterher. Lass dich also durch Unstimmigkeiten nicht aus dem Konzept bringen.
 
@@ -38,10 +38,10 @@ Antworten zu diesen Fragen findet man nur schwer in den Showreels, da diese oftm
 
 Hier wird es jetzt kompliziert. Man kann aber zunächst folgende klare Aussagen treffen:
 
-- Es gibt keine allerbeste Engine. Jede hat ihre Vorzüge und auch Probleme. Am besten probiert man alle Engines aus und findet dann das richtige Tool nach Gefühl. Wichtig ist immer, dass man nicht zu früh aufgibt und die Schuld auf die Software schiebt, wenn etwas nicht klappt. Aller Anfang ist nunmal schwer.
+- Es gibt keine allerbeste Engine! Jede hat ihre Vorzüge und auch Probleme. Am besten probiert man alle Engines aus und findet dann das richtige Tool nach Gefühl. Wichtig ist immer, dass man nicht zu früh aufgibt und die Schuld auf die Software schiebt, wenn etwas nicht klappt. Aller Anfang ist nunmal schwer.
 - Godot ist freie Software (100% kostenlos und quelloffen). Kommerzielle Engines wie Unity und Unreal kosten ab einem bestimmten Punkt Geld und deren Code ist teilweise oder gänzlich nicht verfügbar.
 
-Eine der besten Anhaltspunkte, ob eine Engine gut oder schlecht ist, sind Empfehlungen von anderen. Eine Empfehlung für Godot hast du bereits (von mir :smile:). Aber was sagen andere? Je nach Spieltyp fällt die Antwort unterschiedlich aus, aber [Slant](https://www.slant.co/tags/game-development?filter=top) ist eine Seite, auf der solche Empfehlungen gesammelt werden und man eine nette Übersicht bekommt, welche Software am meisten empfohlen wird:
+Eine der ersten Anhaltspunkte, ob eine Engine gut oder weniger gut ist, sind Empfehlungen von anderen. Eine Empfehlung für Godot hast du bereits (von mir :smile:). Aber was sagen andere? Je nach gewünschter Ausrichtung fällt die Antwort unterschiedlich aus, aber [Slant](https://www.slant.co/tags/game-development?filter=top) ist eine Seite, auf der solche Empfehlungen gesammelt werden und man eine nette Übersicht bekommt, welche Software am meisten empfohlen wird:
 
 - [What are the best game engines?](https://www.slant.co/topics/991/~best-game-engines)
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)

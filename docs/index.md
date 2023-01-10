@@ -37,7 +37,10 @@ Und falls der Workshop online stattfindet:
 - [x] einen 'aufgeräumten' Desktop, der nur Dinge zeigt, die öffentlich sichtbar sein dürfen, da wir eventuell den Bildschirm teilen, um einander zu helfen
 - [ ] [die Godot Engine](level1/installation.md)
 
-Sollte etwas schieflaufen oder solltest du aus irgendwelchen Gründen nicht am Workshop teilnehmen können: Keine Panik! Auf dieser Webseite findest du alle Inhalte und Schritt-für-Schritt-Anleitungen zu den Themen des Workshops.
+!!! tip "Im Brandfall: Scheibe _nicht_ einschlagen!"
+	Sollte etwas schieflaufen oder solltest du aus irgendwelchen Gründen nicht am Workshop teilnehmen können: **Keine Panik!**
+	
+	Auf dieser Webseite findest du alle Inhalte und Schritt-für-Schritt-Anleitungen zu den Themen des Workshops. Du kannst also jederzeit dir die Sachen selbstständig anschauen und den Workshop so nachholen.
 
 ## Weiterführende Links
 

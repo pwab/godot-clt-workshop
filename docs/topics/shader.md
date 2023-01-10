@@ -1,6 +1,6 @@
-# Künstliche Intelligenz (KI/AI)
+# Shader
 
 !!! abstract "Zusammenfassung"
     **Ziel**: xxx<br>
-    **Level**: Experte<br>
+    **Level**: Fortgeschritten bis Experte<br>
     **Doku**: xxx

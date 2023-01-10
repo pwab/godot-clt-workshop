@@ -1,6 +1,7 @@
 # Multiplayer
 
-!!! warning "Baustelle"
-    Sorry, hier steht noch nichts weiter. Ich arbeite daran ⛏
+!!! abstract "Zusammenfassung"
+    **Ziel**: xxx<br>
+    **Level**: Experte<br>
+    **Doku**: [Godot Dokumentation - Tutorials - Networking](https://docs.godotengine.org/de/stable/tutorials/networking/index.html)
 
-- https://docs.godotengine.org/de/stable/tutorials/networking/index.html

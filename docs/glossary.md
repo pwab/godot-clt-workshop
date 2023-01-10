@@ -6,30 +6,63 @@ Hier findest du ein <s>alphabetisch</s> einigermaßen sortiertes Glossar.
 
 ## Abkürzungen
 
-- AA: Anti-Aliasing (Kantenglättung)
-- AR: Augmented Reality
-- FPS: Frames Per Second (Bilder pro Sekunde)
-- IO: Input/Output (Eingabe/Ausgabe)
-- LAN: Local Area Network (Lokales Netzwerk)
-- PBR: Physically Based Rendering
-- SFX: Soundeffects (Soundeffekte)
-- VR: Virtual Reality (Virtuelle Realität)
+| Abkürzung  | Beschreibung                           |
+| :--------: | :------------------------------------- |
+| `AA`       | Anti-Aliasing (Kantenglättung)         |
+| `AR`       | Augmented Reality                      |
+| `FPS`      | Frames Per Second (Bilder pro Sekunde) |
+| `IO`       | Augmented Reality                      |
+| `LAN`      | Local Area Network (Lokales Netzwerk)  |
+| `PBR`      | Physically Based Rendering             |
+| `SFX`      | Soundeffects (Soundeffekte)            |
+| `VR`       | Virtual Reality (Virtuelle Realität)   |
 
 ## Begriffe
 
-- Assets: Materialien, umfasst Sprites, Sounds, Schriftarten und alles andere, was man zum Spieleprogrammieren eben so braucht
-- Icons: Bilder, die klein und kompakt sind und einen Begriff oder ein Ding auf ganz einfache Weise darstellen
-- Sounds: Musik und Soundeffekte
-- Sprites: Bilder
-- Spritesheet: Zusammenstellung von Einzelbildern in einer Bilddatei
-- Input: Eingabe
-- Output: Ausgabe
-- Left: Links
-- Right: Rechts
-- Up: Hoch
-- Down: Runter
-- Top: Open
-- Down: Unten
-- Collision: Kollision, spielt eine große Rolle beim Einsatz von Physik
-- Delta: Differenz, oftmals benutzt als Deltatime (Zeitdifferenz) zwischen zwei Frames, wird benötigt, um Spiele unabhängig von der Leistung der Hardware zu programmieren
-- Frame: Einzelbild eines Spiels, pro Sekunde werden in der Regel 30 bis 120 FPS erreicht, darunter wirkt das Spiel "ruckelig"
+`Assets`
+:   Materialien, umfasst Sprites, Sounds, Schriftarten und alles andere, was man zum Spieleprogrammieren eben so braucht
+
+`Icons`
+:   Bilder, die klein und kompakt sind und einen Begriff oder ein Ding auf ganz einfache Weise darstellen. Werden zumeist in Menüs verwendet, um einer Aktion ein passendes Bild zuzuweisen (bspw. eine Diskette zum Speichern). Werden auch als Symbol für Programme verwendet, welches dann als App-Symbol auf dem Desktop/Smartphone-Homescreen erscheint.
+
+`Sounds`
+:   Musik und Soundeffekte
+
+`Sprites`
+:   Bilder
+
+`Spritesheet`
+:   Zusammenstellung von Einzelbildern in einer Bilddatei
+
+`Input`
+:   Eingabe
+
+`Output`
+:   Ausgabe
+
+`Left`
+:   Links. Richtungsangabe. Findet bspw. Verwendung bei `Vector2D.LEFT`
+
+`Right`
+:   Rechts
+
+`Up`
+:   Hoch
+
+`Down`
+:   Runter
+
+`Top`
+:   Open
+
+`Down`
+:   Unten
+
+`Collision`
+:   Kollision, spielt eine große Rolle beim Einsatz von Physik
+
+`Delta`
+:   Differenz, oftmals benutzt als Deltatime (Zeitdifferenz) zwischen zwei Frames, wird benötigt, um Spiele unabhängig von der Leistung der Hardware zu programmieren
+
+`Frame`
+:   Einzelbild eines Spiels, pro Sekunde werden in der Regel 30 bis 120 FPS erreicht, darunter wirkt das Spiel "ruckelig"

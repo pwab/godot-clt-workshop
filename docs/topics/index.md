@@ -4,23 +4,11 @@ Im Rahmen des Workshops werden wir nicht allzu viel schaffen. Da ich aber weiß,
 
 Jedes Thema ist untergliedert nach folgenden Punkten:
 
-1. Worum geht's
-2. Schwierigkeitsgrad
+1. Worum geht es?
+2. Allgemeine Einschätzung
+   - Wofür kann man das gebrauchen
+   - Schwierigkeitsgrad der Umsetzung
 3. Kurzanleitung
 4. Links
 
 Ich hoffe, dass dir das etwas weiter hilft, wenn du dich selbstständig mit Godot beschäftigst. Ansonsten empfehle ich dir die [Godot Dokumentation](https://docs.godotengine.org/de/stable/). Dort findest du nämlich auch viele Themen einzeln im Detail erklärt.
-
-- [Export](export.md)
-- [Asset Library](assets.md)
-- [2D Grafik](2d.md)
-- [3D Grafik](3d.md)
-- [Sound](sound.md)
-- [Physik](physics.md)
-- [Animation](animation.md)
-- [Input](input.md )
-- [Speichern/Laden](io.md)
-- [GUI](gui.md)
-- [KI](ai.md)
-- [Multiplayer](networking.md)
-- [VR](vr.md)

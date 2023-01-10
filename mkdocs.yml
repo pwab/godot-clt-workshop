@@ -26,7 +26,7 @@ theme:
     #- navigation.indexes --> section pages (overviews)
     - navigation.instant # xhr hot reload
     - navigation.tracking # anchor tracking in url
-    - navigation.top # back to top button
+    #- navigation.top # back to top button
     - toc.follow # toc scrolls so the current point is visible
     #- toc.integrate --> toc of a page on the left
     - search.suggest
@@ -36,6 +36,8 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - def_list
+  - tables
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
@@ -85,7 +87,7 @@ nav:
     - KI: topics/ai.md
     - Multiplayer: topics/networking.md
     - VR: topics/vr.md
-  - Clones:
+  - Klone:
     - Klone bekannter Spiele: clones/index.md
     - Pong: clones/pong/index.md
     - Flappy Bird: clones/flappy-bird/index.md
