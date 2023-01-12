@@ -25,11 +25,13 @@ theme:
   features:
     #- navigation.indexes --> section pages (overviews)
     - navigation.instant # xhr hot reload
-    - navigation.tracking # anchor tracking in url
+    #- navigation.tracking # anchor tracking in url
     #- navigation.top # back to top button
     - toc.follow # toc scrolls so the current point is visible
     #- toc.integrate --> toc of a page on the left
     - search.suggest
+    - content.code.copy # Code copy button
+    - content.code.annotate # Code annotations
 
 plugins:
   - search
@@ -38,11 +40,20 @@ markdown_extensions:
   - admonition
   - def_list
   - tables
+  - abbr
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbrevations.md
+  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
 
 extra_css:
   - stylesheets/extra.css
@@ -53,49 +64,76 @@ repo_name: pwab/godot-clt-workshop
 nav:
   - Startseite: index.md
   - Einleitung:
-    - Willkommen: introduction/welcome.md
-    - Aussprache: introduction/pronounce.md
-    - Fragen zu Godot: introduction/godot.md
-  - Level 1:
-    - Installation: level1/installation.md
-    - Eine Demo starten: level1/start.md
-    - Hello World: level1/hello.md
-  - Level 2:
-    - Spielfigur mit Bild: level2/player.md
-    - Eingaben zur Bewegung: level2/input.md
-    - Kollisionen: level2/collision.md
-  - Level 3:
-    - Eine Spielidee entwickeln: level3/gamedev.md
-    - Den Editor kennenlernen: level3/editor.md
-    - Modden von Beispielen: level3/mods.md
-  - Level 4:
-    - Dodge the creeps!: dodge-the-creeps/index.md
-    - Let's Play: dodge-the-creeps/play.md
-  - Wie geht es weiter?: next.md
+    - Willkommen: introduction/01_welcome-structure.md
+    - Aussprache: introduction/02_pronounce.md
+    - Fragen zu Godot: introduction/03_godot-faq.md
+    - Installation: introduction/04_installation.md
+    - Demo starten: introduction/05_start-demo.md
+  - Level 1 > Hello Godot:
+    - Erstes Projekt: level1/01_first-project.md
+    - Erste Einstellungen: level1/02_first-settings.md
+    - Erster Code: level1/03_first-code.md
+    - Erste GUI: level1/04_first-gui.md
+    - Erstes Bild: level1/05_first-image.md
+    - Erste Animation: level1/06_first-animation.md
+    - Erster Sound: level1/07_first-sound.md
+    - Erste Eingaben: level1/08_first-input.md
+  - Level 2 > Spielentwicklung:
+    - Spielentwicklung: level2/gamedev.md
+  - Level 3 > Minispiel Teil I:
+    - Spielidee: level3/01_gameidea.md
+    - Assets: level3/02_assets.md
+    - Spielfigur: level3/03_character.md
+    - Eingaben: level3/04_input.md
+    - Karte: level3/05_map.md
+    - Kollisionen: level3/06_collision.md
+    - Gegner: level3/07_enemy.md
+    - Spiellogik: level3/08_gamelogic.md
+  - Level 4 > Godot Editor:
+    - Der Godot Editor: level4/editor.md
+  - Level 5 > Minispiel Teil II:
+    - Menü: level5/01_gui-menu.md
+    - Animationen: level5/02_animations.md
+    - Soundeffekte: level5/03_soundeffects.md
+    - Shader: level5/04_shader.md
+    - Couch-Coop: level5/05_couch-coop.md
+    - Speichern/Laden: level5/06_save-load.md
+    - Gegner-KI: level5/07_enemy-ai.md
+    - Export: level5/08_export.md
+  - Extralevel:
+    - Wie geht es weiter?: extralevel/next.md
+    - Extralevel 1 > Dokumentation:
+      - Lesen, lesen, lesen: extralevel/docs/index.md
+      - Dodge the creeps: extralevel/docs/dodge-the-creeps.md
+    - Extralevel 2 > Mods: extralevel/mods/index.md
+    - Extralevel 3 > Klone:
+      - Klone bekannter Spiele: extralevel/clones/index.md
+      - Pong: extralevel/clones/pong/index.md
+      - Flappy Bird: extralevel/clones/flappy-bird/index.md
+      - Doodle Jump: extralevel/clones/doodle-jump/index.md
+      - Angry Birds: extralevel/clones/angry-birds/index.md
+      - Super Mario: extralevel/clones/super-mario/index.md
+      - Among Us: extralevel/clones/among-us/index.md
+      - Minecraft: extralevel/clones/minecraft/index.md
+    - Extralevel 4 > Dein eigenes Spiel: extralevel/your-game/index.md
   - Themengebiete:
     - Übersicht: topics/index.md
     - Export: topics/export.md
-    - Asset Library: topics/assets.md
+    - Assets: topics/assets.md
     - 2D Grafik: topics/2d.md
     - 3D Grafik: topics/3d.md
     - Sound: topics/sound.md
     - Physik: topics/physics.md
     - Animation: topics/animation.md
-    - Input: topics/input.md 
+    - Input: topics/input.md
+    - Fehlerbehebung: topics/debugging.md
     - Speichern/Laden: topics/io.md
+    - Export: topics/export.md
     - GUI: topics/gui.md
+    - Shader: topics/shader.md
     - KI: topics/ai.md
     - Multiplayer: topics/networking.md
-    - VR: topics/vr.md
-  - Klone:
-    - Klone bekannter Spiele: clones/index.md
-    - Pong: clones/pong/index.md
-    - Flappy Bird: clones/flappy-bird/index.md
-    - Doodle Jump: clones/doodle-jump/index.md
-    - Angry Birds: clones/angry-birds/index.md
-    - Super Mario: clones/super-mario/index.md
-    - Among Us: clones/among-us/index.md
-    - Minecraft: clones/minecraft/index.md
+    - XR (VR/AR): topics/xr.md
   - Hilfe: help.md
   - Glossar: glossary.md
 

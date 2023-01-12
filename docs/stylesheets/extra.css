@@ -17,6 +17,14 @@
 }
 */
 
+/* TODO: Codeblock color in light theme
+:root > * {
+  --md-code-fg-color: #0FF1CE;
+  --md-code-bg-color: #0FF1CE;
+  --md-code-hl-color: #0FF1CE;
+}
+*/
+
 a {
   font-style: bold;
 }

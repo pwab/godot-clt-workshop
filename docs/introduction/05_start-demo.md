@@ -6,7 +6,7 @@ Dann legen wir mal los. Starte die Godot Engine. Du solltest nach einer kurzen L
 
 Dies ist die _Projektverwaltung_. Diese ist zu Beginn natürlich noch leer. Aber das heißt nicht, dass man sie nicht schnell füllen kann. Gerade am Anfang habe ich viele kleine Testprojekte erstellt - ich habe bestimmt schon hundert Stück davon in meiner Liste. Aber man kann auch auf andere Weise die ersten Erfahrungen machen: mit den Demos.
 
-!!! info "Spracheinstellung"
+!!! tip "Spracheinstellung"
     Falls die Projektverwaltung auf Englisch angezeigt ist, kannst du sie - und damit das gesamte Programm - oben rechts auf Deutsch umstellen. Das hilft teilweise am Anfang überall die richtigen Einstellungen zu finden, aber wenn du mal online nach Hilfe fragst, wirst du immer die englischen Begriffe finden. Ein Umstellen ist auch jederzeit in den Programmeinstellungen möglich.
 
 ## Vorlagen und Demos
@@ -52,3 +52,5 @@ Das Spiel lässt sich mit einem Klick auf das Schließen-Kreuz beenden oder durc
 ![](../assets/stop.png)
 
 Und das war es schon. Damit hast du in kurzer Zeit dein erstes Spiel gestartet und konntest testen, ob die Godot Engine bei dir grundsätzlich funktioniert.
+
+Jetzt wird es aber Zeit für das erste eigene Projekt und die erste Zeile Code! Schließe dazu die `2D Platformer` Demo oben links im Menü mit einem Klick auf `Projekt` und dann `Zur Projektverwaltung zurückkehren`. Godot wird dich fragen, ob du das aktuelle Projekt wirklich schließen möchtest. Das kannst du mit Ja bestätigen - eventuell geänderte Szenen kannst du dabei gern speichern.

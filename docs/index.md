@@ -11,7 +11,7 @@
 	*Viele Grüße<br>
 	\- Philipp*
 	
-	![pwab bei CLT-Adventure](assets/pwab_cltadventure.png)
+	![pwab beim CLT-Adventure](assets/pwab_cltadventure.png)
 
 Godot ist eine freie Spiel-Engine, mit der sich auf einfache Weise Ideen für Spiele und Apps auf PC, Smartphone oder im Webbrowser umsetzen lassen. Der Einstieg ist überraschend einfach und viele Sachen sind schnell gemacht. Im Workshop wird die Godot Engine vorgestellt. Unter Anleitung werden Spielelemente wie Animationen, Sound und Kollisionen für ein kleines 2D-Spiel Schritt für Schritt eingebaut und Fallstricke dabei erklärt. Am Ende des Workshops sollen die Teilnehmer gesehen haben, wie die Godot Engine aufgebaut ist und wie man damit die einzelnen Grundbausteine eines Spiels nach und nach zusammenfügt. Da man in einem solchen Kurs trotz des zeitlichen Umfangs nur an der Oberfläche der Spieleentwicklung kratzen kann, gibt es online weiterführendes Kursmaterial, mit dessen Hilfe man sich dann selbstständig weitere Themen erarbeitet kann.
 
@@ -28,14 +28,14 @@ Die benötigte Software ist für alle gängigen Betriebssysteme verfügbar und d
 Also hier noch einmal zusammengefasst, was du zum Live-Workshop vor Ort benötigst:
 
 - [x] einen Laptop
-- [ ] [die Godot Engine](level1/installation.md)
+- [ ] [die Godot Engine](introduction/04_installation.md)
 
 Und falls der Workshop online stattfindet:
 
 - [x] einen PC/Laptop
 - [x] ein Headset mit Kopfhörern und am besten mit Mikrofon (Zur Kommunikation wird es während des Workshops einen Textchat geben. Wer ein Mikrofon hat, kann auch dieses für das Stellen von Fragen nutzen. Eine Kamera wird nicht benötigt.)
 - [x] einen 'aufgeräumten' Desktop, der nur Dinge zeigt, die öffentlich sichtbar sein dürfen, da wir eventuell den Bildschirm teilen, um einander zu helfen
-- [ ] [die Godot Engine](level1/installation.md)
+- [ ] [die Godot Engine](introduction/04_installation.md)
 
 !!! tip "Im Brandfall: Scheibe _nicht_ einschlagen!"
 	Sollte etwas schieflaufen oder solltest du aus irgendwelchen Gründen nicht am Workshop teilnehmen können: **Keine Panik!**

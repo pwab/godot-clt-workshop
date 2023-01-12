@@ -22,7 +22,7 @@ Das Community der Godot Engine sammelt jedes Jahr Videos zusammen, welche die vi
 
 Weitere Showreels: [Godot Engine Games Showcase (2019 - 2021)](https://www.youtube.com/watch?v=BhwMSfX-8iw&list=PLeG_dAglpVo6EpaO9A1nkwJZOwrfiLdQ8)
 
-Die aktuellsten Showreels findest du immer auf dieser Seite: https://godotengine.org/showcase
+Die aktuellsten Showreels findest du immer unter [Showcase](https://godotengine.org/showcase) auf der offiziellen Webseite der Godot Gameengine.
 
 ## Welche Spiele wurden damit schon gemacht?
 
@@ -76,3 +76,7 @@ Hier nochmal ein paar mehr Tipps:
     - Nutze erstmal Engines mit visueller Programmierung wie bspw. [Scratch]() oder [GDevelop](https://gdevelop.io/). Dadurch lernst du auch die Grundbausteine eines Programmtextes (Wenn-Dann, Wiederholung, Objekte/Ereignisse, Bugs etc.) und kannst dieses Wissen später nutzen, wenn du dich dann doch bereit fühlst, Programmtext zu schreiben.
     - Schau dir einmal [Python](https://www.python.org/) und seine unzähligen Bücher und Onlinetutorials an. Es gibt meiner Meinung nach fast keine einfachere Einsteigersprache zur Programmierung, welche top aktuell ist und gleichzeitig in vielen Unternehmen und in der Forschung verwendet wird. Die Sprache ist im Übrigen GDScript sehr ähnlich und kann im
     - Spring einfach ins kalte Wasser! Irgendwann wirst du an den Punkt kommen, an dem du Programmtext aus einem Tutorial abschreiben musst. Wenn du dann eigene Änderungen daran vornimmst, lernst du die logischen Zusammenhänge und merkst, dass es doch am Ende gar nicht so schwer ist. Stück für Stück wird es dir leichter fallen. Versprochen!
+  
+## Wie wird man Spielentwickler?
+
+...
