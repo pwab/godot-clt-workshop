@@ -1,10 +1,6 @@
 # Erster Code
 
-Nodes hinzufügen
-
-Node2D
-
-Skript -> GDScript
+Attach Script -> GDScript
 
 Code Vorlage (Template):
 

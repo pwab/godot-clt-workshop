@@ -71,13 +71,14 @@ nav:
     - Demo starten: introduction/05_start-demo.md
   - Level 1 > Hello Godot:
     - Erstes Projekt: level1/01_first-project.md
-    - Erste Einstellungen: level1/02_first-settings.md
+    - Erstes Node: level1/02_first-node.md
     - Erster Code: level1/03_first-code.md
-    - Erste GUI: level1/04_first-gui.md
-    - Erstes Bild: level1/05_first-image.md
-    - Erste Animation: level1/06_first-animation.md
-    - Erster Sound: level1/07_first-sound.md
-    - Erste Eingaben: level1/08_first-input.md
+    - Erste Einstellungen: level1/04_first-settings.md
+    - Erste GUI: level1/05_first-gui.md
+    - Erstes Bild: level1/06_first-image.md
+    - Erste Animation: level1/07_first-animation.md
+    - Erster Sound: level1/08_first-sound.md
+    - Erste Eingaben: level1/09_first-input.md
   - Level 2 > Spielentwicklung:
     - Spielentwicklung: level2/gamedev.md
   - Level 3 > Minispiel Teil I:

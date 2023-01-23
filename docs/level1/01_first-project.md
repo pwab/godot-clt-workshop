@@ -1,6 +1,6 @@
 # Erstes Projekt
 
-...
+Godot starten -> Projektverwaltung
 
 In der Projektverwaltung
 
@@ -9,6 +9,6 @@ In der Projektverwaltung
 - Ordner
 - Bearbeiten und Erstellen
 
-Leeres Projekt ist wie ein leeres Blatt Papier
+Editor ist gestartet mit Projekt juhuu
 
 ![]()
