@@ -6,4 +6,4 @@
 
 !!! success "Level 1: Complete"
 
-    Du hast es geschafft, auf zu Level 2!
+    Du hast es geschafft! Leg eine kurze Pause ein und dann auf zu Level 2.

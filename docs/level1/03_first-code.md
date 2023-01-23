@@ -26,5 +26,7 @@ Dort in Zeile 10 unter `#!gdscript func _ready():` das `#!gdscript pass` entfern
 
 ```gdscript linenums="9"
 func _ready():
-    print("Hello World")
+    print("Warten auf Godot...")
 ```
+
+Play drücken -> Konsole im Editor

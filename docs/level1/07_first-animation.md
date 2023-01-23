@@ -1,3 +1,9 @@
 # Erste Animation
 
-- Drehen des Sprites beim Klick auf den Button
+AnimationPlayer
+
+Neue Animation -> Name "Rotation"
+
+
+
+- Drehen des Sprites dauerhaft
