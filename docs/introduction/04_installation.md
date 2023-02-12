@@ -14,7 +14,7 @@ Die Godot Engine kannst du auf allen gängigen Betriebssystemen (Linux, Windows,
 
 Die [offizielle Downloadseite](https://godotengine.org/download) wählt automatisch für das Betriebssystem den passenden Download aus.
 
-![Betriebssysteme auf der Downloadseite](../assets/download_os.png)
+![Betriebssysteme auf der Downloadseite](../assets/introduction/installation/download_os.png)
 
 Eine Installation über einen Linux-Paketmanager, Snap oder Flatpack sollte auch funktioieren. Schau dir aber bitte die angebotene Version an, denn viele Pakete sind nicht gepflegt und dementsprechend veraltet. Eine Übersicht für verfügbare Linuxpakete findet sich bei [pkgs.org](https://pkgs.org/search/?q=godot).
 
@@ -22,7 +22,7 @@ Eine Installation über einen Linux-Paketmanager, Snap oder Flatpack sollte auch
 
 Es gibt zwei Varianten (jeweils für 32- oder 64-bit Systeme):
 
-![Godot Versionen](../assets/download_versionen.png)
+![Godot Versionen](../assets/introduction/installation/download_versionen.png)
 
 Der Unterschied ist, dass die Mono-Variante zusätzlich die Programmiersprache C# unterstützt. Das benötigen wir für den Kurs nicht. Später kann man problemlos zur Mono-Version wechseln, wenn man das mal ausprobieren möchte.
 
@@ -32,7 +32,7 @@ Wenn du mit einem 32-bit Betriebssystem arbeitest, nimm die 32-bit Version. Anso
 
 Falls du dein Spiel exportieren möchtest, um es danach mit anderen zu teilen, benötigst du die Exporttemplates.
 
-![Exporttemplates](../assets/download_export.png)
+![Exporttemplates](../assets/introduction/installation/download_export.png)
 
 Diese brauchen wir für den Workshop nicht. Sie lassen sich auch nachträglich problemlos im Godot Editor herunterladen und einrichten. Der Download könnte etwas länger dauern, da die Exporttemplates recht groß sind (> 500 MB).
 

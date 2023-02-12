@@ -11,7 +11,7 @@
 	*Viele Grüße<br>
 	\- Philipp*
 	
-	![pwab beim CLT-Adventure](assets/pwab_cltadventure.png)
+	![pwab beim CLT-Adventure](assets/index/pwab_cltadventure.png)
 
 Godot ist eine freie Spiel-Engine, mit der sich auf einfache Weise Ideen für Spiele und Apps auf PC, Smartphone oder im Webbrowser umsetzen lassen. Der Einstieg ist überraschend einfach und viele Sachen sind schnell gemacht. Im Workshop wird die Godot Engine vorgestellt. Unter Anleitung werden Spielelemente wie Animationen, Sound und Kollisionen für ein kleines 2D-Spiel Schritt für Schritt eingebaut und Fallstricke dabei erklärt. Am Ende des Workshops sollen die Teilnehmer gesehen haben, wie die Godot Engine aufgebaut ist und wie man damit die einzelnen Grundbausteine eines Spiels nach und nach zusammenfügt. Da man in einem solchen Kurs trotz des zeitlichen Umfangs nur an der Oberfläche der Spieleentwicklung kratzen kann, gibt es online weiterführendes Kursmaterial, mit dessen Hilfe man sich dann selbstständig weitere Themen erarbeitet kann.
 
@@ -53,7 +53,7 @@ Und falls der Workshop online stattfindet:
 
 ## Lizenz
 
-![CC0 Lizenz Badge](assets/cc0_badge.png)
+![CC0 Lizenz Badge](assets/index/cc0_badge.png)
 
 Der gesamte Workshopinhalt (Text, Bilder und Code) steht unter der [CC0-1.0](https://creativecommons.org/share-your-work/public-domain/cc0/) Lizenz. Er ist also frei nutzbar, kann ohne zu fragen kopiert, verändert und weitergegeben werden.
 

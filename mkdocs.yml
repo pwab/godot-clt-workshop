@@ -2,8 +2,8 @@ site_name: Spieleprogrammierung mit der Godot Engine
 
 theme:
   name: material
-  logo: assets/logo.svg
-  favicon: assets/favicon.png
+  logo: assets/index/logo.svg
+  favicon: assets/index/favicon.png
   language: de
   icon:
     repo: fontawesome/brands/github
@@ -77,18 +77,16 @@ nav:
     - Erste Einstellungen: level1/04_first-settings.md
     - Erste GUI: level1/05_first-gui.md
     - Erstes Bild: level1/06_first-image.md
-    - Erste Animation: level1/07_first-animation.md
-    - Erster Sound: level1/08_first-sound.md
-    - Erste Eingaben: level1/09_first-input.md
+    - Erste Steuerung: level1/07_first-input.md
   - Level 2 > Spielentwicklung:
     - Spielentwicklung: level2/gamedev.md
   - Level 3 > Minispiel Teil I:
     - Spielidee: level3/01_gameidea.md
     - Assets: level3/02_assets.md
-    - Spielfigur: level3/03_character.md
-    - Eingaben: level3/04_input.md
-    - Karte: level3/05_map.md
-    - Kollisionen: level3/06_collision.md
+    - Spielfigur: level3/03_world.md
+    - Eingaben: level3/04_settings.md
+    - Karte: level3/05_character.md
+    - Kollisionen: level3/06_map.md
     - Gegner: level3/07_enemy.md
     - Spiellogik: level3/08_gamelogic.md
   # - Level 4 > Godot Editor:

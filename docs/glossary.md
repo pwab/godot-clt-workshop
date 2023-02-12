@@ -56,7 +56,7 @@ Hier findest du ein <s>alphabetisch</s> einigermaßen sortiertes Glossar.
 :   Runter
 
 `Top`
-:   Open
+:   Oben
 
 `Down`
 :   Unten
