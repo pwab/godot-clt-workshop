@@ -10,31 +10,40 @@ Die Godot Engine kannst du auf allen gängigen Betriebssystemen (Linux, Windows,
 
     Dennoch musste ich letztendlich für den Workshop eine Entscheidung treffen. Und den Kurs für Godot 3 zu schreiben, obwohl Godot 4 bereits in der Beta ist, erschien mir wenig sinnvoll. Die Gefahr besteht natürlich, dass das Programm dann bei dem einen oder anderen nicht richtig läuft oder während des Workshops abstürzt. Aber ich hoffe, dass das nur selten der Fall sein wird und wir somit gleich mit dem neusten Godot loslegen können.
 
-## Herunterladen
+## Download über die offizielle Webseite
 
-Die [offizielle Downloadseite](https://godotengine.org/download) wählt automatisch für das Betriebssystem den passenden Download aus.
+### Plattformauswahl
 
-![Betriebssysteme auf der Downloadseite](../assets/introduction/installation/download_os.png)
+Gehe auf die [offizielle Downloadseite](https://godotengine.org/download). Diese wählt automatisch die passende Plattform - also den Download für dein Betriebssystem aus und leitet dich auf die richtige Webseite weiter.
 
-Eine Installation über einen Linux-Paketmanager, Snap oder Flatpack sollte auch funktioieren. Schau dir aber bitte die angebotene Version an, denn viele Pakete sind nicht gepflegt und dementsprechend veraltet. Eine Übersicht für verfügbare Linuxpakete findet sich bei [pkgs.org](https://pkgs.org/search/?q=godot).
+![Betriebssysteme auf der Downloadseite](../assets/introduction/installation/supported_platforms.png)
 
-## Varianten
+### Varianten
 
-Es gibt zwei Varianten (jeweils für 32- oder 64-bit Systeme):
-
-![Godot Versionen](../assets/introduction/installation/download_versionen.png)
-
-Der Unterschied ist, dass die Mono-Variante zusätzlich die Programmiersprache C# unterstützt. Das benötigen wir für den Kurs nicht. Später kann man problemlos zur Mono-Version wechseln, wenn man das mal ausprobieren möchte.
+Von der Godot Engine gibt es zwei Varianten: mit und ohne .NET-Unterstützung. Der Unterschied ist, dass die .NET-Variante zusätzlich die Programmiersprache C# unterstützt. Das benötigen wir für den Kurs nicht. Später kann man problemlos zur Mono-Version wechseln, wenn man das mal ausprobieren möchte.
 
 Wenn du mit einem 32-bit Betriebssystem arbeitest, nimm die 32-bit Version. Ansonsten kannst du problemlos die 64-bit Version verwenden - einen Unterschied gibt es meines Wissens nach nicht.
 
-## Exporttemplates
+### Download
 
-Falls du dein Spiel exportieren möchtest, um es danach mit anderen zu teilen, benötigst du die Exporttemplates.
+Klick auf den oberen blauen Button - also den Downloadbutton für die Godot Engine ohne .NET-Unterstützung. Der Download sollte nun starten.
 
-![Exporttemplates](../assets/introduction/installation/download_export.png)
+![Godot Versionen](../assets/introduction/installation/download_versionen.png)
 
-Diese brauchen wir für den Workshop nicht. Sie lassen sich auch nachträglich problemlos im Godot Editor herunterladen und einrichten. Der Download könnte etwas länger dauern, da die Exporttemplates recht groß sind (> 500 MB).
+### Keine Installation nötig
+
+Eine Installation ist nicht notwendig, da die Godot Engine einfach so gestartet werden kann (das nennt man portable oder self-contained). Unter Linux muss eventuell noch das Recht zur Ausführung als Applikation gesetzt werden.
+
+Du solltest den Editor nun mit einem Doppelklick starten können und es sollte nach einer kurzen Ladezeit der Godot Splashscreen erscheinen. 👍
+
+## Installation über andere Wege
+
+Die Installation über einen Linux-Paketmanager, Snap oder Flatpack sollte auch funktionieren. Schau dir aber bitte die angebotene Version an, denn viele Pakete sind nicht gepflegt und dementsprechend veraltet. Eine Übersicht für verfügbare Linuxpakete findet sich bei [pkgs.org](https://pkgs.org/search/?q=godot).
+
+Godot kann auch über Drittanbieter bezogen werden. Dazu zählen aktuell Steam und itch.io. Manchmal gibt es hierbei Einschränkungen oder ein paar Sachen sind anders, aber im Großen und Ganzen unterscheiden sich diese Versionen nicht von der, welche auf der offiziellen Webseite heruntergeladen werden kann.
+
+![Drittanbieter](../assets/introduction/installation/third_party.png)
+
 
 ## Webversion
 
