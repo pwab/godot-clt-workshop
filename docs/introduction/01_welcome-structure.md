@@ -24,12 +24,12 @@ Aufbau:
 - Level 3: Minigame I
 - Level 4: Den Editor näher kennenlernen
 - Level 5: Minigame II
-- Extralevel
+- Bonuslevel
   - Wie geht es weiter?
-  - Extralevel 1: Dodge the creeps (Doku kennenlernen)
-  - Extralevel 2: Mods (Lernen an Beispielen)
-  - Extralevel 3: Clones (MVPs bauen oder Templates nutzen)
-  - Extralevel 4: Eigenes Spiel (Von der Idee zur Veröffentlichung)
+  - Bonuslevel 1: Dodge the creeps (Doku kennenlernen)
+  - Bonuslevel 2: Mods (Lernen an Beispielen)
+  - Bonuslevel 3: Clones (MVPs bauen oder Templates nutzen)
+  - Bonuslevel 4: Eigenes Spiel (Von der Idee zur Veröffentlichung)
 - Themengebiete (API Doku)
 - Hilfe
 - Glossar

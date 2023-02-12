@@ -102,22 +102,22 @@ nav:
   #   - Speichern/Laden: level5/06_save-load.md
   #   - Gegner-KI: level5/07_enemy-ai.md
   #   - Export: level5/08_export.md
-  # - Extralevel:
-  #   - Wie geht es weiter?: extralevel/next.md
-  #   - Extralevel 1 > Dokumentation:
-  #     - Lesen, lesen, lesen: extralevel/docs/index.md
-  #     - Dodge the creeps: extralevel/docs/dodge-the-creeps.md
-  #   - Extralevel 2 > Mods: extralevel/mods/index.md
-  #   - Extralevel 3 > Klone:
-  #     - Klone bekannter Spiele: extralevel/clones/index.md
-  #     - Pong: extralevel/clones/pong/index.md
-  #     - Flappy Bird: extralevel/clones/flappy-bird/index.md
-  #     - Doodle Jump: extralevel/clones/doodle-jump/index.md
-  #     - Angry Birds: extralevel/clones/angry-birds/index.md
-  #     - Super Mario: extralevel/clones/super-mario/index.md
-  #     - Among Us: extralevel/clones/among-us/index.md
-  #     - Minecraft: extralevel/clones/minecraft/index.md
-  #   - Extralevel 4 > Dein eigenes Spiel: extralevel/your-game/index.md
+  # - Bonuslevel:
+  #   - Wie geht es weiter?: bonuslevel/next.md
+  #   - Bonuslevel 1 > Dokumentation:
+  #     - Lesen, lesen, lesen: bonuslevel/docs/index.md
+  #     - Dodge the creeps: bonuslevel/docs/dodge-the-creeps.md
+  #   - Bonuslevel 2 > Mods: bonuslevel/mods/index.md
+  #   - Bonuslevel 3 > Klone:
+  #     - Klone bekannter Spiele: bonuslevel/clones/index.md
+  #     - Pong: bonuslevel/clones/pong/index.md
+  #     - Flappy Bird: bonuslevel/clones/flappy-bird/index.md
+  #     - Doodle Jump: bonuslevel/clones/doodle-jump/index.md
+  #     - Angry Birds: bonuslevel/clones/angry-birds/index.md
+  #     - Super Mario: bonuslevel/clones/super-mario/index.md
+  #     - Among Us: bonuslevel/clones/among-us/index.md
+  #     - Minecraft: bonuslevel/clones/minecraft/index.md
+  #   - Bonuslevel 4 > Dein eigenes Spiel: bonuslevel/your-game/index.md
   # - Themengebiete:
   #   - Übersicht: topics/index.md
   #   - Export: topics/export.md
