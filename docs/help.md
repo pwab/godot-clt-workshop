@@ -7,7 +7,7 @@ Falls du Hilfe brauchst, gibt es viele verschiedene Möglichkeiten und Kanäle. 
 
     Texte kannst du oftmals ganz schnell mittels [DeepL](https://deepl.com) übersetzen. Falls du selbst eine Frage formulieren willst, dir aber bei der Grammatik oder Rechtschreibung nicht sicher bist, kann ich [LanguageTool](https://languagetool.org) empfehlen.
 
-    Ich habe deutsche Links direkt mit einer 🇩🇪 markiert.
+    Ich habe deutsche Links direkt mit einer 🇩🇪-Flagge markiert.
 
 ## Offizielle Seiten
 
