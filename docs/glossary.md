@@ -19,6 +19,9 @@ Hier findest du ein <s>alphabetisch</s> einigermaßen sortiertes Glossar.
 
 ## Begriffe
 
+`AAA`
+:   Ausgesprochen ["Triple A"](https://de.wikipedia.org/wiki/AAA_(Computerspiele)), bezeichnet Spiele, die ein sehr hohes Entwicklungsbudget haben, an denen tausende Entwickler in internationalen Teams arbeiten und die in der Regel grafisch sehr aufwändig und/oder inhaltich sehr umfangreich sind.
+
 `Assets`
 :   Materialien, umfasst Sprites, Sounds, Schriftarten und alles andere, was man zum Spieleprogrammieren eben so braucht
 
