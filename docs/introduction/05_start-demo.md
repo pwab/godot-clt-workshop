@@ -1,6 +1,8 @@
-# Ein Spiel starten
+# Eine Demo starten
 
-Dann legen wir mal los. Starte die Godot Engine. Du solltest nach einer kurzen Ladezeit folgendes Fenster sehen:
+Für einen ersten Test, können wir mal eine Demo ausprobieren. Das sind fertige Miniprojekte, welche andere Leute erstellt und online zur Verfügung gestellt haben, damit man Sachen einfach mal ausprobieren kann.
+
+Starte dazu die Godot Engine. Du solltest nach einer kurzen Ladezeit folgendes Fenster sehen:
 
 ![Projektverwaltung](../assets/projektverwaltung_neu.png)
 

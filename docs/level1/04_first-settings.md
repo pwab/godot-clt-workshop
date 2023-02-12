@@ -1,12 +1,11 @@
 # Erste Einstellungen
 
-Config -> Name
+Menü oben
 
-Splashscreen
+Projekteinstellungen
 
-Windows size
+Viele Einstellungen
 
-Stretch Viewport
+Suche eintippen
 
-
-Play -> Änderungen angucken
+Splashscreen Farbe

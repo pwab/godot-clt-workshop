@@ -1,6 +1,7 @@
 # Spielidee
 
-CLT Map (kleiner?)
+Platformer Beat-em up
 
-Tux oder Figur
-
+- Spielvarianten / Templates
+- Skizzen erstellen
+- Ideen sammeln

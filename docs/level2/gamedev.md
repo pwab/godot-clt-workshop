@@ -2,6 +2,10 @@
 
 ...
 
+## Schwiergikeit
+
+Schwierigkeit <--> Zeit
+
 ## Ideen
 
 - Ideen haben

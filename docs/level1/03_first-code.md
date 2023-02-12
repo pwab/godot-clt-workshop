@@ -1,5 +1,7 @@
 # Erster Code
 
+Rechtsklick auf Node
+
 Attach Script -> GDScript
 
 Code Vorlage (Template):
