@@ -4,7 +4,7 @@ Für einen ersten Test, können wir mal eine Demo ausprobieren. Das sind fertige
 
 Starte dazu die Godot Engine. Du solltest nach einer kurzen Ladezeit folgendes Fenster sehen:
 
-![Projektverwaltung](../assets/introduction/start-demo/projektverwaltung_neu.png)
+![Projektverwaltung](../assets/introduction/start-demo/projectmanager_new.png)
 
 Dies ist die _Projektverwaltung_. Diese ist zu Beginn natürlich noch leer. Aber das heißt nicht, dass man sie nicht schnell füllen kann. Gerade am Anfang habe ich viele kleine Testprojekte erstellt - ich habe bestimmt schon hundert Stück davon in meiner Liste. Aber man kann auch auf andere Weise die ersten Erfahrungen machen: mit den Demos.
 
@@ -17,42 +17,58 @@ Eine gängige Herangehensweise als Anfänger in der Spieleprogrammierung ist das
 
 ## Demo herunterladen und installieren
 
-Klick in der Projektverwaltung auf den Reiter `Vorlagen`:
+Klick in der Projektverwaltung in der Meldung auf `Open Asset Library` - oder wenn du zuvor auf `Cancel` geklickt hast - auf den Reiter `Asset Library Projects`.
 
-![Vorlagen](../assets/introduction/start-demo/projektverwaltung_vorlagentab.png)
+![Projektverwaltung mit Asset Library Tab](../assets/introduction/start-demo/projectmanager_new-with-tab.png)
 
-Dort sortierst du nach den `Demos`:
+Dort siehst du erstmal nichts.
 
-![Demos](../assets/introduction/start-demo/projektverwaltung_demos.png)
+![Asset Library](../assets/introduction/start-demo/asset-lib_empty.png)
 
-Jetzt nimmst du am besten die `2D Platformer`. Gebt dazu den Namen einfach in das Feld ein:
+Klicke im Filtermenü am rechten Fensterrand auf `Support` und wähle alle Haken an.
 
-![2D Platformer Demo](../assets/introduction/start-demo/projektverwaltung_2dplatformer.png)
+![Support Level](../assets/introduction/start-demo/asset-lib_support-level.png)
 
-Klick nun auf die Demo, dann auf `Herunterladen` und anschließend auf `Installieren`:
+Nun sollten mehrere Projekte, Templates und Demos angezeigt werden. Scrolle ein wenig, bis du das Template `Strafer` entdeckst.
 
-![Herunterladen](../assets/introduction/start-demo/projektverwaltung_herunterladen.png)
+![Demo in der Asset Lib](../assets/introduction/start-demo/asset-lib_demo.png)
 
-Du musst einen leeren Ordner finden, in welchen du die Dateien ablegen willst. Unter Umständen musst du diesen neu anlegen. Am Ende sollte es in der Projektverwaltung wie im folgenden Bild aussehen. Achte dabei auf den grünen Haken, der taucht nur auf, wenn der Pfad auf einen leeren Ordner zeigt:
+Klicke auf das Symbol bzw. den Namen und es sollte die Beschreibungsseite des Projekts angezeigt werden. Klicke dort auf den Button `Download`.
 
-![Installieren](../assets/introduction/start-demo/projektverwaltung_installieren.png)
+![Demo Beschreibung](../assets/introduction/start-demo/asset-lib_demo-download.png)
 
-Nun klickst du auf den Button `Installieren und Bearbeiten` und der Editor öffnet sich mit der Demo.
+Die Demo wird nun heruntergeladen und muss lokal auf deinem Rechner abgelegt werden. Dazu musst du einen leeren Ordner finden, in welchen du die Dateien ablegen willst (Dies wird über eine gelbe Meldung angezeigt).
 
-![Editor mit Demo](../assets/introduction/start-demo/2dplatformer_editor.png)
+![Demo Installation](../assets/introduction/start-demo/asset-lib_demo-install.png)
+
+Da du im Laufe der Zeit bestimmt meherere Projekte anlegen wirst, empfehle ich dir, an dieser Stelle einen extra Ordner für Godot anzulegen. Klicke dazu auf `Browse`. Anschließend kannst du im Dateimanager einen Ordner mittels `Create Folder` anlegen. Vergib einen Namen für dein übergeordnetes Verzeichnis (im Beispiel `Godot`) und klicke OK. Anschließend kannst du den Dialog schließen mit einem Klick auf `Select Current Folder`.
+
+![Godot Ordner](../assets/introduction/start-demo/asset-lib_godot-folder.png)
+
+Nun klickst du im Fenster neben dem Projektnamen `Strafer` auf `Create Folder`. Damit erzeugst du einen eigenen Unterordner `Strafer` im Ordner `Godot`. Am Ende sollte es in der Projektverwaltung wie im folgenden Bild aussehen. Achte dabei auf den grünen Haken, der taucht nur auf, wenn der Pfad auf einen leeren Ordner zeigt.
+
+![Unterordner anlegen](../assets/introduction/start-demo/asset-lib_demo-subfolder.png)
+
+Nun klickst du auf den Button `Install & Edit` und der Editor öffnet sich mit der Demo.
+
+![Editor mit Demo](../assets/introduction/start-demo/editor_demo.png)
 
 ## Play und Stop
 
-Das Schöne an einer Demo ist, dass du jetzt nicht mehr viel tun musst. Klicke einfach oben rechts auf den kleinen Play-Button und das Spiel sollte sich starten und du kannst sofort losspielen.
+Das Schöne an einer Demo ist, dass du jetzt nicht mehr viel tun musst. Klicke einfach oben rechts auf den kleinen Play-Button und das Spiel sollte sich in einem extra Fenster starten und du kannst sofort losspielen.
 
-![Play Button](../assets/introduction/start-demo/play.png)
+![Play Button](../assets/introduction/start-demo/editor_play.png)
 
-In der ausgewählten Demo kann man mit den Pfeiltasten herumlaufen, mit der Leertaste springen und mit STRG kannst du kleine Kugeln abfeuern.
+In der ausgewählten Demo kann man mit den Pfeiltasten herumlaufen, mit der Leertaste springen und mit STRG kannst du dich hinhocken.
 
-Das Spiel lässt sich mit einem Klick auf das Schließen-Kreuz beenden oder durch den Stop-Button im Editor:
+![Demo Gameplay](../assets/introduction/start-demo/demo_gameplay.png)
 
-![Stop Button](../assets/introduction/start-demo/stop.png)
+Die Demo lässt sich mit einem Klick auf das Schließen-Kreuz des Spielfensters oder durch den Stop-Button im Editor beenden.
 
-Und das war es schon. Damit hast du in kurzer Zeit dein erstes Spiel gestartet und konntest testen, ob die Godot Engine bei dir grundsätzlich funktioniert.
+![Stop Button](../assets/introduction/start-demo/editor_stop.png)
 
-Jetzt wird es aber Zeit für das erste eigene Projekt und die erste Zeile Code! Schließe dazu die `2D Platformer` Demo oben links im Menü mit einem Klick auf `Projekt` und dann `Zur Projektverwaltung zurückkehren`. Godot wird dich fragen, ob du das aktuelle Projekt wirklich schließen möchtest. Das kannst du mit Ja bestätigen - eventuell geänderte Szenen kannst du dabei gern speichern.
+Und das war es schon. Damit hast du in kurzer Zeit deine erste Demo heruntergeladen, das Spiel gestartet und konntest testen, ob die Godot Engine bei dir grundsätzlich funktioniert.
+
+Jetzt wird es aber Zeit für das erste eigene Projekt und die erste Zeile Code! Schließe dazu die Demo oben links im Menü mit einem Klick auf `Project` und dann `Quit to Project List`. Godot wird dich fragen, ob du das aktuelle Projekt wirklich schließen möchtest. Das kannst du mit `Yes` bestätigen - eventuell geänderte Szenen kannst du dabei gern speichern.
+
+![Stop Button](../assets/introduction/start-demo/editor_quit-to-project-list.png)
