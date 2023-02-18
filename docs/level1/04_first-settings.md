@@ -8,4 +8,4 @@ Viele Einstellungen
 
 Suche eintippen
 
-Splashscreen Farbe
+Hintergrundfarbe
