@@ -1,7 +1,5 @@
 # Erstes Projekt
 
-Starte nun mit deinem ersten eigenen Projekt. Es wird kein richtiges Spiel, sondern lediglich ein kleines Programm, dass etwas auf dem Bildschirm ausgibt. In vielen tausend Tutorials und Lehrbüchern gibt es ein solches [Hello World](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) Einstiegsbeispiel, bei dem einfach der Text "Hallo Welt!" (im Englischen eben "Hello World!") angezeigt werden soll. Warum sollten wir hier eine Ausnahme machen?
-
 Starte die Godot Engine. Du solltest nun die Projektverwaltung sehen. Klicke in der rechten Seitenleiste auf den Button `New Project`.
 
 ![Projektverwaltung mit New Project Button]()

@@ -6,4 +6,4 @@ Godot Icon verwenden
 
 Bild einfach reinziehen und irgendwo hin schieben
 
-Tools im 2D Viewport zum Verschieben und Drehen
+Tools im 2D Viewport zum Verschieben und Drehen und Snapping

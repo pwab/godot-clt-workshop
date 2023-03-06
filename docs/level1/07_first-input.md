@@ -18,3 +18,7 @@ func _input(event):
         image.position.x -= 1
 
 etc.
+
+!!! success "Level 1: Complete"
+
+    Du hast es geschafft, auf zu Level 2!
