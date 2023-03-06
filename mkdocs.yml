@@ -78,8 +78,8 @@ nav:
     - Erste GUI: level1/05_first-gui.md
     - Erstes Bild: level1/06_first-image.md
     - Erste Steuerung: level1/07_first-input.md
-  - Level 2 > Spielentwicklung:
-    - Spielentwicklung: level2/gamedev.md
+  #- Level 2 > Spielentwicklung:
+  #  - Spielentwicklung: level2/gamedev.md
   - Level 3 > Minispiel Teil I:
     - Spielidee: level3/01_gameidea.md
     - Assets: level3/02_assets.md
