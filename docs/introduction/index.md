@@ -8,42 +8,32 @@ Im Workshop werden wir zunächst den Godot Editor kennenlernen und eine vorberei
 
 ## Levelaufbau
 
-Kurs ist in Level unterteilt
+Der Kurs ist in Level unterteilt. Mit Abschluss eines jeden Levels hast du einen weiteren, kleinen Schritt in Richtung Spielprogrammierung getan.
 
-Entsprechen Meilensteine
+!!! abstract "Aufbau des Kurses"
 
-Aufbau:
-
-- Einleitung (<-- Du bist hier)
-  - Willkommen
-  - Godot FAQ
-  - Godot Engine installieren
-  - Demo starten
-- Level 1: Erste Schritte
-- Level 2: Von der Spielidee zum Entwurf
-- Level 3: Minigame I
-- Level 4: Den Editor näher kennenlernen
-- Level 5: Minigame II
-- Bonuslevel
-  - Wie geht es weiter?
-  - Bonuslevel 1: Dodge the creeps (Doku kennenlernen)
-  - Bonuslevel 2: Mods (Lernen an Beispielen)
-  - Bonuslevel 3: Clones (MVPs bauen oder Templates nutzen)
-  - Bonuslevel 4: Eigenes Spiel (Von der Idee zur Veröffentlichung)
-- Themengebiete (API Doku)
-- Hilfe
-- Glossar
+    - Einleitung (<-- Du bist hier)
+    - Level 1: Erste Schritte
+    - Level 2: Von der Spielidee zum Entwurf
+    - Level 3: Minigame I
+    - Level 4: Den Editor näher kennenlernen
+    - Level 5: Minigame II
+    - Bonuslevel
+    - Themengebiete
+    - Spickzettel
+    - Hilfe
+    - Glossar
 
 ## Wie man den Kurs allein durcharbeitet
 
-Mach öfter eine Pause!
+Die Kurswebseite ist als Begleitmaterial für meine Workshops konzipiert. Da ich aber versucht habe, alles verständlich aufzuschreiben, könntest du die Kursinhalte auch selbstständig durcharbeiten. Hierfür gebe ich dir gern ein paar wichtige Tipps an die Hand:
 
-Wenn etwas kompliziert und nicht gleich verständlich ist, schlaf eine Nacht darüber
-(oftmals hilft auch Duschen - so seltsam es klingen mag)
-
-Bei Code genau auf die Zeilenangaben achten (links in der Leiste)
-
-Code abtippen und nicht Copy&Paste
+- Mach öfter eine Pause!
+- Wenn etwas kompliziert und nicht gleich verständlich ist, schlaf eine Nacht darüber
+(oftmals hilft auch eine Runde Sport oder Duschen - so seltsam es klingen mag).
+- Bei Codebeispielen solltest du immer sehr genau auf die Zeilenangaben achten (diese findest du bei einem Codeblock links in der Leiste).
+- Code zu schreiben lernt man zu Beginn am besten wie bei einem Diktat in der Schule: Tippe den Code immer ab und verwende kein Copy&Paste.
+- Bei Fehlern und rot markierten Codezeilen immer erstmal tief durchatmen und die Fehlermeldung mehrmals lesen. Wenn gar nichts geht, kann man ein Codebeispiel auch mal direkt kopieren - viel zu häufig hat sich an einer Stelle ein Tippfehler versteckt.
 
 ## Eine Sache noch
 

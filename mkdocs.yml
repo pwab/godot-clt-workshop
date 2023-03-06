@@ -23,7 +23,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    #- navigation.indexes --> section pages (overviews)
+    - navigation.indexes # section pages (overviews)
     - navigation.instant # xhr hot reload
     #- navigation.tracking # anchor tracking in url
     #- navigation.top # back to top button
@@ -65,12 +65,13 @@ repo_name: pwab/godot-clt-workshop
 nav:
   - Startseite: index.md
   - Einleitung:
-    - Willkommen: introduction/01_welcome-structure.md
-    - Aussprache: introduction/02_pronounce.md
-    - Fragen zu Godot: introduction/03_godot-faq.md
-    - Installation: introduction/04_installation.md
-    - Demo starten: introduction/05_start-demo.md
+    - introduction/index.md
+    - Aussprache: introduction/01_pronounce.md
+    - Fragen zu Godot: introduction/02_godot-faq.md
+    - Installation: introduction/03_installation.md
+    - Demo starten: introduction/04_start-demo.md
   - Level 1 > Hello Godot:
+    - level1/index.md
     - Erstes Projekt: level1/01_first-project.md
     - Erstes Node: level1/02_first-node.md
     - Erster Code: level1/03_first-code.md
@@ -81,6 +82,7 @@ nav:
   #- Level 2 > Spielentwicklung:
   #  - Spielentwicklung: level2/gamedev.md
   - Level 3 > Minispiel Teil I:
+    - level3/index.md
     - Spielidee: level3/01_gameidea.md
     - Assets: level3/02_assets.md
     - Spielfigur: level3/03_world.md
