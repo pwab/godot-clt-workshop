@@ -6,12 +6,19 @@
 	Herzlich willkommen!
 	
 	Diese Seite dient der Begleitung von Workshops zum Thema Godot. Du kannst sie aber auch durcharbeiten, ohne einen Workshop zu besuchen.
-	Ich wünsche dir jedenfalls viel Spaß bei der Lektüre. Hier und da fehlt sicherlich noch etwas, aber lass dich davon nicht aufhalten. Bei Fragen kannst du einfach bei GitHub einen [Diskussionsbeitrag](https://github.com/pwab/godot-clt-workshop/discussions) erstellen!
+	Ich wünsche dir jedenfalls viel Spaß bei der Lektüre. Hier und da fehlt sicherlich noch etwas, aber lass dich davon nicht aufhalten. Bei Fragen kannst du einfach bei GitHub einen [Diskussionsbeitrag](https://github.com/pwab/godot-junior-workshop/discussions) erstellen!
 	
 	*Viele Grüße<br>
 	\- Philipp*
 	
 	![pwab beim CLT-Adventure](assets/index/pwab_cltadventure.png)
+
+!!! tip "Workshop bei den CLT2023"
+	Der nächste Workshop ["Einstieg in die Spieleprogrammierung mit der Godot Engine"](https://chemnitzer.linux-tage.de/2023/de/programm/junior) findet bei den Chemnitzer Linux-Tagen 2023 statt!
+
+		Raum: K1
+		Start: Sonntag 14:00
+		Dauer: 03:00h 
 
 Godot ist eine freie Spiel-Engine, mit der sich auf einfache Weise Ideen für Spiele und Apps auf PC, Smartphone oder im Webbrowser umsetzen lassen. Der Einstieg ist überraschend einfach und viele Sachen sind schnell gemacht. Im Workshop wird die Godot Engine vorgestellt. Unter Anleitung werden Spielelemente wie Animationen, Sound und Kollisionen für ein kleines 2D-Spiel Schritt für Schritt eingebaut und Fallstricke dabei erklärt. Am Ende des Workshops sollen die Teilnehmer gesehen haben, wie die Godot Engine aufgebaut ist und wie man damit die einzelnen Grundbausteine eines Spiels nach und nach zusammenfügt. Da man in einem solchen Kurs trotz des zeitlichen Umfangs nur an der Oberfläche der Spieleentwicklung kratzen kann, gibt es online weiterführendes Kursmaterial, mit dessen Hilfe man sich dann selbstständig weitere Themen erarbeitet kann.
 
@@ -51,7 +58,7 @@ Und falls der Workshop online stattfindet:
 
 - [Webseite der Chemnitzer Linux-Tage](https://chemnitzer.linux-tage.de/)
 - [Offizielle Webseite der Godot Engine (Englisch)](https://godotengine.org/)
-- [Source Code dieser Kurswebseite](https://github.com/pwab/godot-clt-workshop)
+- [Source Code dieser Kurswebseite](https://github.com/pwab/godot-junior-workshop)
 
 ## Lizenz
 
@@ -59,4 +66,6 @@ Und falls der Workshop online stattfindet:
 
 Der gesamte Workshopinhalt (Text, Bilder und Code) steht unter der [CC0-1.0](https://creativecommons.org/share-your-work/public-domain/cc0/) Lizenz. Er ist also frei nutzbar, kann ohne zu fragen kopiert, verändert und weitergegeben werden.
 
-Eine Ausnahme bilden Screenshots, welche teilweise aus der offiziellen Dokumentation übernommen wurden (extra gekennzeichnet). Sie stehen - genauso wie das Godot Engine Logo - unter der [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) Lizenz und wurden erstellt von _Juan Linietsky, Ariel Manzur and the Godot community_.
+Auch die Assets fallen alle unter die CC0-1.0 Lizenz. Die jeweiligen Urheber wurden dennoch in den Asset-Unterordnern in einer separaten Datei genannt und die entsprechende Quelle wurde mit angegeben. Mein Dank gilt diesen freundlichen Menschen 💙.
+
+Eine Ausnahme bildet das Godot Logo. Dieses stehet unter der [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) Lizenz und wurde erstellt von _Juan Linietsky, Ariel Manzur and the Godot community_.
