@@ -2,7 +2,7 @@
 
 ## Current Build
 
-🌐 https://pwab.github.io/godot-clt-workshop/
+- 🌐 https://pwab.github.io/godot-junior-workshop/
 
 ## Translations
 
@@ -21,6 +21,8 @@
 
 ![CC0 license badge](docs/assets/index/cc0_badge.png)
 
-The entire workshop content (text, images and code) is licensed under CC0-1.0. It is therefore free to use, copy, modify and distribute without asking.
+The entire workshop content (text, images and code) is licensed under the [CC0-1.0](https://creativecommons.org/share-your-work/public-domain/cc0/) license. So it is free to use, copy, modify and share without asking.
 
-An exception are screenshots, which are partly taken from the official documentation (specially marked). They are - just like the Godot Engine logo - under the CC-BY-3.0 license and were created by _Juan Linietsky, Ariel Manzur and the Godot community_.
+Also the assets all fall under the CC0-1.0 license. Nevertheless, the respective authors were named in the asset subfolders in a separate file and the corresponding source was included. My thanks go to these friendly people 💙.
+
+An exception is the Godot logo. It is licensed under [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) and was created by _Juan Linietsky, Ariel Manzur and the Godot community_.
