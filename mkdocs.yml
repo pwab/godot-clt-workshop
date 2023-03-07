@@ -59,8 +59,8 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
-repo_url: https://github.com/pwab/godot-clt-workshop
-repo_name: pwab/godot-clt-workshop
+repo_url: https://github.com/pwab/godot-junior-workshop
+repo_name: pwab/godot-junior-workshop
 
 nav:
   - Startseite: index.md
