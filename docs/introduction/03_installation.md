@@ -44,6 +44,8 @@ Godot kann auch über Drittanbieter bezogen werden. Dazu zählen aktuell Steam u
 
 ![Drittanbieter](../assets/introduction/installation/third_party.png)
 
+Links zu Drittanbietern: [Link zu Steam](https://store.steampowered.com/app/404790/Godot_Engine), [Link zu itch.io](https://godotengine.itch.io/godot)
+
 ## Webversion
 
 Falls es für dein System keine aktuelle Godot-Version gibt oder sich das Programm nicht starten lässt, dann versuche es mal mit dem Web-Editor. Mit dem habe ich persönlich nur wenig Erfahrungen gemacht, er soll aber dieselben Funktionen unterstützen und eine Bearbeitung von Godot Projekten auch mobil ermöglichen.
@@ -53,3 +55,5 @@ Hier ist der Link: [https://editor.godotengine.org/](https://editor.godotengine.
 ## Androidversion
 
 Wer ein großes Tablet hat und dazu noch passend eine Maus und Tastatur, kann Godot seit kurzem auch auf einem Android-Gerät als App installieren. Diese Form des Editors ist aktuell noch äußerst experimentell und ich würde es für ernsthafte Projekte noch nicht empfehlen - zum Testen und Rumspielen aber sicher nicht verkehrt.
+
+Für Experimentierfreudige: [Godot Editor 4 - App bei Google Play](https://play.google.com/store/apps/details?id=org.godotengine.editor.v4)
