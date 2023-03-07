@@ -28,6 +28,7 @@ Die benötigte Software ist für alle gängigen Betriebssysteme verfügbar und d
 Also hier noch einmal als Checkliste zusammengefasst, was du zum Live-Workshop vorbereiten solltest:
 
 - [x] Bring deinen Laptop mit (Betriebssystem ist egal)
+- [x] Lade dir die [Assets](assets/level3/assets.zip) herunter
 - [ ] Optional: Bring einen Gamecontroller mit, der an deinem Laptop funktioniert (bspw. XBox oder PS-Controller)
 - [ ] Lies das Kapitel zur [Einführung](introduction/index.md)
 - [ ] [Installiere](introduction/03_installation.md) die Godot Engine
@@ -37,6 +38,7 @@ Und falls der Workshop online stattfindet:
 - [x] Sitz gemütlich vor deinem PC/Laptop (Tipp: Zwei Monitore helfen dabei, das Gesehene gleich mit umzusetzen)
 - [x] Halte ein Headset mit Kopfhörern und am besten mit Mikrofon bereit (Zur Kommunikation wird es während des Workshops einen Textchat geben. Wer ein Mikrofon hat, kann auch dieses für das Stellen von Fragen nutzen. Eine Kamera wird nicht benötigt.)
 - [x] Räume deinen Desktop auf, damit dieser nur Dinge zeigt, die öffentlich sichtbar sein dürfen, da wir eventuell den Bildschirm teilen, um einander zu helfen
+- [x] Lade dir die [Assets](assets/level3/assets.zip) herunter
 - [ ] Lies das Kapitel zur [Einführung](introduction/index.md)
 - [ ] [Installiere](introduction/03_installation.md) die Godot Engine
 

@@ -70,27 +70,27 @@ nav:
     - Fragen zu Godot: introduction/02_godot-faq.md
     - Installation: introduction/03_installation.md
     - Demo starten: introduction/04_start-demo.md
-  - Level 1 > Hello Godot:
-    - level1/index.md
-    - Erstes Projekt: level1/01_first-project.md
-    - Erstes Node: level1/02_first-node.md
-    - Erster Code: level1/03_first-code.md
-    - Erste Einstellungen: level1/04_first-settings.md
-    - Erste GUI: level1/05_first-gui.md
-    - Erstes Bild: level1/06_first-image.md
-    - Erste Steuerung: level1/07_first-input.md
+  #- Level 1 > Hello Godot:
+  #  - level1/index.md
+  #  - Erstes Projekt: level1/01_first-project.md
+  #  - Erstes Node: level1/02_first-node.md
+  #  - Erster Code: level1/03_first-code.md
+  #  - Erste Einstellungen: level1/04_first-settings.md
+  #  - Erste GUI: level1/05_first-gui.md
+  #  - Erstes Bild: level1/06_first-image.md
+  #  - Erste Steuerung: level1/07_first-input.md
   #- Level 2 > Spielentwicklung:
   #  - Spielentwicklung: level2/gamedev.md
-  - Level 3 > Minispiel Teil I:
-    - level3/index.md
-    - Spielidee: level3/01_gameidea.md
-    - Assets: level3/02_assets.md
-    - Spielfigur: level3/03_world.md
-    - Eingaben: level3/04_settings.md
-    - Karte: level3/05_character.md
-    - Kollisionen: level3/06_map.md
-    - Gegner: level3/07_enemy.md
-    - Spiellogik: level3/08_gamelogic.md
+  #- Level 3 > Minispiel Teil I:
+  #  - level3/index.md
+  #  - Spielidee: level3/01_gameidea.md
+  #  - Assets: level3/02_assets.md
+  #  - Spielfigur: level3/03_world.md
+  #  - Eingaben: level3/04_settings.md
+  #  - Karte: level3/05_character.md
+  #  - Kollisionen: level3/06_map.md
+  #  - Gegner: level3/07_enemy.md
+  #  - Spiellogik: level3/08_gamelogic.md
   # - Level 4 > Godot Editor:
   #   - Der Godot Editor: level4/editor.md
   # - Level 5 > Minispiel Teil II:
