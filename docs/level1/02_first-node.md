@@ -40,7 +40,7 @@ Nach dem Speichern siehst du unten links im `FileSystem`-Dock neben der `icon.sv
 
 ![FileSystem-Dock mit main.tscn]()
 
-Klicke nun oben rechts im Godot Editor auf den Play-Button, um das gesamte Projekt zu starten.
+Klicke nun oben rechts im Godot Editor bei den sogenannten Playtest-Buttons auf ▶️ Play, um das gesamte Projekt zu starten.
 
 ![Playtest Buttons]()
 
