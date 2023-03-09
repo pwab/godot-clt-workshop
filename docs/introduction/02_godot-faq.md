@@ -14,7 +14,7 @@ Jean von [Linux Guides](https://www.youtube.com/@LinuxGuides) hat sich bei den C
 
 ## Was kann man damit alles machen?
 
-Das Community der Godot Engine sammelt jedes Jahr Videos zusammen, welche die vielen Spiele und Programme zeigen, die mit der Engine erstellt wurden. Diese Showreels gibt es für verschiedene Kategorien bspw. Desktop Games, Mobile Games oder auch für Apps. Schau dir am besten einmal die neuesten Videos an, dann bekommst du einen guten Überblick, was andere Leute so mit der Godot Engine machen:
+Die Community der Godot Engine sammelt jedes Jahr Videos zusammen, welche die vielen Spiele und Programme zeigen, die mit der Engine erstellt wurden. Diese Showreels gibt es für verschiedene Kategorien bspw. Desktop Games, Mobile Games oder auch für Apps. Schau dir am besten einmal die neuesten Videos an, dann bekommst du einen guten Überblick, was andere Leute so mit der Godot Engine machen:
 
 - [Godot Engine - Desktop/Console - 2022 Showreel ](https://www.youtube.com/watch?v=UAS_pUTFA7o)
 - [Godot Engine - Mobile - 2022 Showreel](https://www.youtube.com/watch?v=xF3QiQfQxeQ)
@@ -26,7 +26,7 @@ Die aktuellsten Showreels findest du immer unter [Showcase](https://godotengine.
 
 ## Welche Spiele wurden damit schon gemacht?
 
-Die meisten kommen zum Thema Spieleentwicklung über folgenden Gedanken: "Wow! Dieses Spiel ist wirklich toll. Ich möchte auch solche Spiele bauen können!". So versuchen viele herauszufinden, womit denn das Lieblingsspiel programmiert wurde und oftmals findet man entweder keine genaue Antwort oder es ist wurden spezielle Engines verwendet, welche man nicht einfach so im Internet findet. Aber vielleicht gibt es ja ähnliche Spiele, die mit Godot gebaut wurden? Was wurde denn überhaupt schon mit Godot veröffentlicht?
+Die meisten kommen zum Thema Spieleentwicklung über folgenden Gedanken: "Wow! Dieses Spiel ist wirklich toll. Ich möchte auch solche Spiele bauen können!". So versuchen viele herauszufinden, womit denn das Lieblingsspiel programmiert wurde und oftmals findet man entweder keine genaue Antwort oder es wurden spezielle Engines verwendet, welche man nicht einfach so im Internet findet. Aber vielleicht gibt es ja ähnliche Spiele, die mit Godot gebaut wurden? Was wurde denn überhaupt schon mit Godot veröffentlicht?
 
 Antworten zu diesen Fragen findet man nur schwer in den Showreels, da diese oftmals einfach nur Entwicklungsstände zeigen oder zumindest keine veröffentlichten Spiele. Dafür empfehle ich drei andere Anlaufstellen:
 
