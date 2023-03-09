@@ -1,0 +1,667 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../01_pronounce/">
+      
+      
+        <link rel="next" href="../03_installation/">
+      
+      <link rel="icon" href="../../assets/index/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.2">
+    
+    
+      
+        <title>Fragen zu Godot - Spieleprogrammierung mit der Godot Engine</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7bf56d0a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fragen-zu-godot" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="Spieleprogrammierung mit der Godot Engine" class="md-header__button md-logo" aria-label="Spieleprogrammierung mit der Godot Engine" data-md-component="logo">
+      
+  <img src="../../assets/index/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Spieleprogrammierung mit der Godot Engine
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fragen zu Godot
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/pwab/godot-junior-workshop" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pwab/godot-junior-workshop
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Spieleprogrammierung mit der Godot Engine" class="md-nav__button md-logo" aria-label="Spieleprogrammierung mit der Godot Engine" data-md-component="logo">
+      
+  <img src="../../assets/index/logo.svg" alt="logo">
+
+    </a>
+    Spieleprogrammierung mit der Godot Engine
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/pwab/godot-junior-workshop" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pwab/godot-junior-workshop
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Startseite
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Einleitung</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Einleitung
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_pronounce/" class="md-nav__link">
+        Aussprache
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Fragen zu Godot
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Fragen zu Godot
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-die-godot-gameengine" class="md-nav__link">
+    Was ist die Godot Gameengine?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-kann-man-damit-alles-machen" class="md-nav__link">
+    Was kann man damit alles machen?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#welche-spiele-wurden-damit-schon-gemacht" class="md-nav__link">
+    Welche Spiele wurden damit schon gemacht?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#godot-vs-unity-vs-unreal-vs-xyz" class="md-nav__link">
+    Godot vs Unity vs Unreal vs XYZ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ist-godot-eine-gute-wahl-fur-einen-absoluten-anfanger-wie-mich" class="md-nav__link">
+    Ist Godot eine gute Wahl für einen absoluten Anfänger wie mich?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_start-demo/" class="md-nav__link">
+        Demo starten
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cheatsheet/" class="md-nav__link">
+        Spickzettel
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/" class="md-nav__link">
+        Hilfe
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        Glossar
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-die-godot-gameengine" class="md-nav__link">
+    Was ist die Godot Gameengine?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-kann-man-damit-alles-machen" class="md-nav__link">
+    Was kann man damit alles machen?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#welche-spiele-wurden-damit-schon-gemacht" class="md-nav__link">
+    Welche Spiele wurden damit schon gemacht?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#godot-vs-unity-vs-unreal-vs-xyz" class="md-nav__link">
+    Godot vs Unity vs Unreal vs XYZ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ist-godot-eine-gute-wahl-fur-einen-absoluten-anfanger-wie-mich" class="md-nav__link">
+    Ist Godot eine gute Wahl für einen absoluten Anfänger wie mich?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="fragen-zu-godot">Fragen zu Godot</h1>
+<p>Es geht noch nicht mal richtig los und schon gibt es Fragen über Fragen. Das ist ein typisches Bild in jedem Workshop und alle diese "Bevor-wir-loslegen-möchte-ich-gern-noch-etwas-wissen"-Fragen haben ihre Berechtigung. Deshalb möchte ich an dieser Stelle einen Überblick zur Godot-Engine und zu den häufigsten Startfragen ein paar erste Antworten geben.</p>
+<p>Wie immer gilt: Nichts ist in Stein gemeißelt. Videos von YouTubern sind manchmal schon etwas älter und einige Antworten stimmen einfach nicht mehr. Die Godot Engine entwickelt sich stetig und sehr schnell weiter - da komme auch ich an der einen oder anderen Stelle nicht mehr hinterher. Lass dich also durch Unstimmigkeiten nicht aus dem Konzept bringen.</p>
+<h2 id="was-ist-die-godot-gameengine">Was ist die Godot Gameengine?</h2>
+<p>Puh! So eine einfache aber irgendwie doch recht schwierig zu beantwortende Frage. Dank der Wikipedia haben wir gute Artikel, was eine <a href="https://de.wikipedia.org/wiki/Spiel-Engine">Spieleengine</a> und was ein <a href="https://de.wikipedia.org/wiki/Framework">Framework</a> ist und was <a href="https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung">integrierte Entwicklungsumgebungen</a> damit zu tun haben.</p>
+<p>Ich versuche es mal auf einfache Weise: Godot ist eine <a href="https://de.wikipedia.org/wiki/Freie_Software">freie Software</a> - sie ist <a href="https://de.wikipedia.org/wiki/Open_Source">quelloffen</a> und kostenlos nutzbar. Die Godot Gameengine ist eine Spiele-Engine. Damit lassen sich Spiele für den Computer, das Smartphone, für Webseiten oder sogar Konsolen erstellen. Die Werkzeuge von Godot unterstützen den Spieldesigner bei allen Elementen, die ein Spiel benötigt. Dazu zählen beispielsweise 2D- oder 3D-Grafik, Soundeffekte und Hintergrundmusik, die Steuerung mit Tastatur und Controller oder auch komplexe Sachen wie KI-Gegner und Multiplayer.</p>
+<p>Jean von <a href="https://www.youtube.com/@LinuxGuides">Linux Guides</a> hat sich bei den Chemnitzer Linux-Tagen 2021 etwas mehr Mühe als ich jetzt gegeben, um Godot vorzustellen. Schaut euch doch einfach das <a href="https://www.youtube.com/watch?v=sD3dB-6V_PU">Video</a> an - die Folien sowie die Fragen mit den Antworten gibt es auf den <a href="https://chemnitzer.linux-tage.de/2021/de/programm/beitrag/177">Seiten der CLT 2021</a>. </p>
+<h2 id="was-kann-man-damit-alles-machen">Was kann man damit alles machen?</h2>
+<p>Die Community der Godot Engine sammelt jedes Jahr Videos zusammen, welche die vielen Spiele und Programme zeigen, die mit der Engine erstellt wurden. Diese Showreels gibt es für verschiedene Kategorien bspw. Desktop Games, Mobile Games oder auch für Apps. Schau dir am besten einmal die neuesten Videos an, dann bekommst du einen guten Überblick, was andere Leute so mit der Godot Engine machen:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=UAS_pUTFA7o">Godot Engine - Desktop/Console - 2022 Showreel </a></li>
+<li><a href="https://www.youtube.com/watch?v=xF3QiQfQxeQ">Godot Engine - Mobile - 2022 Showreel</a></li>
+<li><a href="https://www.youtube.com/watch?v=9kKp0oguzr8">Godot Engine - Apps &amp; Tools - 2022 Showreel</a></li>
+</ul>
+<p>Weitere Showreels: <a href="https://www.youtube.com/watch?v=BhwMSfX-8iw&amp;list=PLeG_dAglpVo6EpaO9A1nkwJZOwrfiLdQ8">Godot Engine Games Showcase (2019 - 2021)</a></p>
+<p>Die aktuellsten Showreels findest du immer unter <a href="https://godotengine.org/showcase">Showcase</a> auf der offiziellen Webseite der Godot Gameengine.</p>
+<h2 id="welche-spiele-wurden-damit-schon-gemacht">Welche Spiele wurden damit schon gemacht?</h2>
+<p>Die meisten kommen zum Thema Spieleentwicklung über folgenden Gedanken: "Wow! Dieses Spiel ist wirklich toll. Ich möchte auch solche Spiele bauen können!". So versuchen viele herauszufinden, womit denn das Lieblingsspiel programmiert wurde und oftmals findet man entweder keine genaue Antwort oder es wurden spezielle Engines verwendet, welche man nicht einfach so im Internet findet. Aber vielleicht gibt es ja ähnliche Spiele, die mit Godot gebaut wurden? Was wurde denn überhaupt schon mit Godot veröffentlicht?</p>
+<p>Antworten zu diesen Fragen findet man nur schwer in den Showreels, da diese oftmals einfach nur Entwicklungsstände zeigen oder zumindest keine veröffentlichten Spiele. Dafür empfehle ich drei andere Anlaufstellen:</p>
+<ul>
+<li><a href="https://godotengine.org/showcase">Offizielle Godot Showcases</a> - Auf den Unterseiten stellen Entwickler ein Spiel vor und beschreiben, wie Godot ihnen geholfen hat, es zu verwirklichen.</li>
+<li><a href="https://itch.io/games/made-with-godot">itch.io "Made with Godot"</a> - Itch.io ist eine sehr große Plattform für sogenannte Indie-Spiele. Hier gibt es auch eine extra Kategorie für Godot-Spiele.</li>
+<li><a href="https://store.steampowered.com/curator/41324400-Is-it-made-with-Godot/">Steam Kurator "Is it made with Godot"</a> - Die wohl bekannteste Plattform für Desktopgames "Steam" beinhaltet ebenfalls viele Godotspiele. Diese werden auf der Kuratorenseite gesammelt und sind somit besser auffindbar, als durch die Steamsuche.</li>
+</ul>
+<h2 id="godot-vs-unity-vs-unreal-vs-xyz">Godot vs Unity vs Unreal vs XYZ?</h2>
+<p>Hier wird es jetzt kompliziert. Man kann aber zunächst folgende klare Aussagen treffen:</p>
+<ul>
+<li>Es gibt keine allerbeste Engine! Jede hat ihre Vorzüge und auch Probleme. Am besten probiert man alle Engines aus und findet dann das richtige Tool nach Gefühl. Wichtig ist immer, dass man nicht zu früh aufgibt und die Schuld auf die Software schiebt, wenn etwas nicht klappt. Aller Anfang ist nunmal schwer.</li>
+<li>Godot ist freie Software (100% kostenlos und quelloffen). Kommerzielle Engines wie Unity und Unreal kosten ab einem bestimmten Punkt Geld und deren Code ist teilweise oder gänzlich nicht verfügbar.</li>
+</ul>
+<p>Eine der ersten Anhaltspunkte, ob eine Engine gut oder weniger gut ist, sind Empfehlungen von anderen. Eine Empfehlung für Godot hast du bereits (von mir <img alt="😄" class="twemoji" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f604.svg" title=":smile:" />). Aber was sagen andere? Je nach gewünschter Ausrichtung fällt die Antwort unterschiedlich aus, aber <a href="https://www.slant.co/tags/game-development?filter=top">Slant</a> ist eine Seite, auf der solche Empfehlungen gesammelt werden und man eine nette Übersicht bekommt, welche Software am meisten empfohlen wird:</p>
+<ul>
+<li><a href="https://www.slant.co/topics/991/~best-game-engines">What are the best game engines?</a></li>
+<li><a href="https://www.slant.co/topics/341/~best-2d-game-engines">What are the best 2D game engines?</a></li>
+<li><a href="https://www.slant.co/topics/1495/~best-3d-game-engines">What are the best 3D game engines?</a></li>
+<li><a href="https://www.slant.co/topics/2526/~best-free-2d-game-engines">What are the best free 2D game engines?</a></li>
+<li><a href="https://www.slant.co/topics/1476/~best-2d-game-engines-for-android">What are the best 2D game engines for Android?</a></li>
+<li><a href="https://www.slant.co/topics/5363/~2d-game-engines-for-low-end-machines-laptops">What are the best 2D game engines for low end machines/laptops?</a></li>
+<li><a href="https://www.slant.co/topics/9364/~game-engines-for-making-an-rpg">What are the best game engines for making an RPG?</a></li>
+<li><a href="https://www.slant.co/topics/5145/~game-engines-for-point-click-adventure-games">What are the best game engines for point &amp; click adventure games?</a></li>
+<li>Bei <a href="https://alternativeto.net/category/developer-tools/game-development/">Alternativeto.net</a> ist Godot ebenfalls weit vorn platziert</li>
+</ul>
+<p>Es gibt auch viele Videos, die diese Frage etwas mehr im Detail thematisieren. Auch hier muss man schauen, dass man nicht allzu alte Videos anguckt, denn alle Spielengines entwickeln sich stetig weiter:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Fq_nK4_B6_0">Gamesfromscratch - Unity vs Unreal vs Godot -- Getting Started</a></li>
+<li><a href="https://www.youtube.com/watch?v=kahPeM0scpM">GDQuest - Unity VS Godot: How Do They Compare?</a></li>
+<li><a href="https://www.youtube.com/watch?v=3KKeFK0NHc8">GDQuest - Godot VS Game Maker: How Do They Compare?</a></li>
+<li><a href="https://www.youtube.com/watch?v=l7BrpcboJno">Gamesfromscratch - Why Godot Over Unity or Unreal Engine?</a></li>
+</ul>
+<h2 id="ist-godot-eine-gute-wahl-fur-einen-absoluten-anfanger-wie-mich">Ist Godot eine gute Wahl für einen absoluten Anfänger wie mich?</h2>
+<p>Kurz und knapp: Ja!</p>
+<ul>
+<li>Godot ist wunderbar für den Einstieg in die Spieleentwicklung geeignet.</li>
+<li>Godot ist auch für absolute Programmierneulinge geeinget, denn die Skriptsprache GDScript ist sehr einfach zu erlernen.</li>
+<li>Es gibt sehr viele Video-Tutorials und Anleitungen für Anfänger. Die Dokumentation ist größtenteils auch auf Deutsch übersetzt. (Derzeit gibt es nur wenige Bücher, aber das kann sich ja vielleicht noch ändern.)</li>
+</ul>
+<p>Hier nochmal ein paar mehr Tipps:</p>
+<ul>
+<li>Falls du noch unschlüssig bist, schau dir die Liste <a href="https://www.slant.co/topics/1907/~best-game-engines-for-beginners-and-non-programmers">"What are the best game engines for beginners and non-programmers?" auf Slant</a> an. Dort findest du noch weitere gute Einsteiger-Engines.</li>
+<li>Du bist noch in der Grundschule und hast absolut keine Vorstellungen von der Spieleentwicklung? Dann empfehle ich für den Einstieg <a href="https://scratch.mit.edu/">Scratch</a> - am besten in Kombination mit einem guten Buch über die Spieleentwicklung mit Scratch. Auf jeden Fall solltest du dir aber auch jemanden suchen, mit dem du gemeinsam die ersten Schritte wagen kannst. Damit wirst du doppelt so schnell voran kommen und am Ende hat man gleich doppelt so viel Spaß. Versprochen!</li>
+<li>Du hast etwas Angst vor der Programmierung mittels Text? Das ist völlig normal, denn es erscheint zunächst ungewöhnlich, einem Computer mittels Texteditor zu sagen, was er machen soll. An dieser Stelle hast du meiner Meinung nach drei Möglichkeiten:<ul>
+<li>Nutze erstmal Engines mit visueller Programmierung wie bspw. <a href="">Scratch</a> oder <a href="https://gdevelop.io/">GDevelop</a>. Dadurch lernst du auch die Grundbausteine eines Programmtextes (Wenn-Dann, Wiederholung, Objekte/Ereignisse, Bugs etc.) und kannst dieses Wissen später nutzen, wenn du dich dann doch bereit fühlst, Programmtext zu schreiben.</li>
+<li>Schau dir einmal <a href="https://www.python.org/">Python</a> und seine unzähligen Bücher und Onlinetutorials an. Es gibt meiner Meinung nach fast keine einfachere Einsteigersprache zur Programmierung, welche top aktuell ist und gleichzeitig in vielen Unternehmen und in der Forschung verwendet wird. Die Sprache ist im Übrigen GDScript sehr ähnlich und kann fast ohne Umschreiben in Godot verwendet werden (alternativ gibt es sogar ein Plugin für Python in Godot).</li>
+<li>Spring einfach ins kalte Wasser! Irgendwann wirst du an den Punkt kommen, an dem du Programmtext aus einem Tutorial abschreiben musst. Wenn du dann eigene Änderungen daran vornimmst, lernst du die logischen Zusammenhänge und merkst, dass es doch am Ende gar nicht so schwer ist. Stück für Stück wird es dir leichter fallen. Versprochen!</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.instant", "toc.follow", "search.suggest", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fc8c2696.min.js"></script>
+      
+    
+  </body>
+</html>
